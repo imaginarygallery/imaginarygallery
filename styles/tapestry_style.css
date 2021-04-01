@@ -1,21 +1,160 @@
-.slide {
-  width: 100vw;
-  height: 100vh;
+
+body {
+	margin-top: 0;		
 }
+
+.slide {
+	width: 100vw;
+	height: 100vh;
+}
+
+.outer-wrapper {
+	width: 100vh;
+	height: 100vw;
+	transform: rotate(-90deg) translateX(-100vh);
+	transform-origin: top left;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: absolute;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+
+}
+
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 400vw;
+	background-image: url(graphics/tapestry_dummy_wallpaper.jpeg);
+	display: flex;
+	flex-direction: row;
+	width: 300vw;
+	transform: rotate(90deg) translateY(-100vh);
+	transform-origin: top left;
 }
 .one {
-  background: #efdefe;
+/*	text-align: center;*/
+	justify-content: center;
+  	align-items: center;
+	display: grid;
+	grid-template-columns: 0.9fr 1.6fr 0.5fr;
+	grid-template-rows: 0.2fr 2.4fr 0.4fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  ". . ."
+	  ". one_frame_container ."
+	  ". . .";
 }
+
+.one_frame_container { 
+	width: 500px;
+    height: 450px;
+	grid-area: one_frame_container; 
+	justify-content: center;
+/*  	align-items: center;*/
+	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+/*	background-position: center;*/
+	transform: translateX(-70%); 
+	transform: translateY(-20%);
+}
+
+
+
 .two {
-  background: #a3f3d3;
+	text-align: center;
+	justify-content: center;
+  	align-items: center;
+	display: grid;
+	grid-template-columns: 0.2fr 2.3fr 0.5fr;
+	grid-template-rows: 1.1fr 1.5fr 0.4fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  ". . ."
+	  ". two_frame_container ."
+	  ". . .";
 }
+
+.two_frame_container { 
+	width: 500px;
+    height: 450px;
+	grid-area: two_frame_container; 
+	justify-content: center;
+  	align-items: center;
+	background: url(graphics/Frames/Gold_Shape_Warm.png); 
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translateX(30%); 
+	transform: translateY(10%);
+}
+
+
+
 .three {
-  background: #0bbaa0;
+	text-align: center;
+	justify-content: center;
+  	align-items: center;
+	display: grid;
+	grid-template-columns: 0.2fr 2.3fr 0.5fr;
+	grid-template-rows: 0.2fr 2.4fr 0.4fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  ". . ."
+	  ". three_frame_container ."
+	  ". . .";
 }
+
+.three_frame_container { 
+	width: 500px;
+    height: 450px;
+	grid-area: three_frame_container; 
+	justify-content: center;
+  	align-items: center;
+	background: url(graphics/Frames/Gold_2_Soft.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translateX(20%); 
+	transform: translateY(-10%);
+}
+
+
+
 .four {
-  background: #00dfdf;
+	text-align: center;
+	justify-content: center;
+  	align-items: center;
+	display: grid;
+	grid-template-columns: 0.2fr 2.3fr 0.5fr;
+	grid-template-rows: 0.2fr 2.4fr 0.4fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  ". . ."
+	  ". four_frame_container ."
+	  ". . .";
 }
+
+
+
+.four_frame_container { 
+	width: 500px;
+    height: 450px;
+	grid-area: four_frame_container; 
+	justify-content: center;
+  	align-items: center;
+	background: url(graphics/Frames/Gold_Frame_Black.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: translateX(20%); 
+	transform: translateY(35%);
+}
+
+
+
+
+::-webkit-scrollbar {
+	display:none;
+}
+
+
+
