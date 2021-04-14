@@ -55,7 +55,7 @@ body {
 /*	background-position: center;*/
 	transform: translateX(-70%); 
 	transform: translateY(-20%);
-}
+}	
 
 
 
@@ -150,7 +150,109 @@ body {
 }
 
 
+.five {
+	text-align: center;
+	justify-content: center;
+  	align-items: center;
+	display: grid;
+	grid-template-columns: 0.2fr 2.3fr 0.5fr;
+	grid-template-rows: 0.2fr 2.4fr 0.4fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  ". . ."
+	  ". next_room ."
+	  ". . .";
+}
 
+
+
+/*.next_room { 
+	width: 500px;
+    height: 450px;
+	grid-area: next_room; 
+	justify-content: center;
+  	align-items: center;
+	background: url(graphics/button2.png); 
+	font-size: 22px;
+	font-family: Georgia;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	text-align: center;
+	margin: 0px;	
+	font-size: 20px;
+	font-family: Georgia;
+	border: none;
+	background-color: transparent;
+
+}
+*/
+
+
+.next_room {
+	width: 500px;
+    height: 450px;
+	grid-area: next_room; 
+	justify-content: center;
+  	align-items: center;
+/*	background: url(graphics/button2.png); */
+	font-size: 22px;
+	font-family: Georgia;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.button {
+	background: url(graphics/button2.png);
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+/*	display: grid;*/
+	align-items: center;
+	justify-content: center;
+	margin: 0px;	
+	font-size: 20px;
+	font-family: Georgia;
+	padding: 70px;
+	border: none;
+	background-color: transparent;
+/*	position: relative;
+	top: 0%;
+	width: 0%*/
+/*	transform: translateY(-50%); */
+}
+
+.button:hover {
+	cursor: pointer;
+	border: none;
+	background: url(graphics/button2.png);
+	background-size: 157px 157px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+/*	display: flex;*/
+	align-items: center;
+	justify-content: center;
+	margin: 0px;	
+	font-size: 22px;
+	font-family: Georgia;
+	padding: 70px;
+	border: none;
+	background-color: transparent;
+/*	position: relative;
+	top: 0%;
+	width: 0%*/
+}
+
+.button:focus {
+	outline: none;
+	cursor: pointer;
+}
 
 ::-webkit-scrollbar {
 	display:none;

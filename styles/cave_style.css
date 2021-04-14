@@ -1,0 +1,123 @@
+body {
+	background-image: url(graphics/Dark_Overlay.png);
+	background-size: cover;
+}
+
+#overlay {
+	background-image: url(graphics/Cave_Background.png);
+	background-size: cover;
+/*	position: absolute;*/
+	display: grid;
+	grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+	grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  ". one . ."
+	  ". . two ."
+	  ". three . four"
+	  "five . . .";
+	  margin: 0;
+/*    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 200vh;*/
+    cursor: none;
+	-webkit-clip-path: circle(80px);
+	clip-path: radial-gradient(circle, rgba(0, 0, 0, 0) 32px, rgba(0, 0, 0, 1) 38px);
+
+/*    -webkit-mask-position: -20px -20px;
+	-webkit-mask-size: 200px 400px;	
+	-webkit-mask: radial-gradient(circle, rgba(0, 0, 0, 0) 32px, rgba(0, 0, 0, 1) 38px);*/
+}
+
+.one {
+	grid-area: one;
+	width: 100%;
+	position: relative;
+	text-align: center;
+    height: 450px;
+	justify-content: center;
+/*  	align-items: center;*/
+	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.two {
+	grid-area: two;
+	width: 100%;
+	position: relative;
+	text-align: center;
+    height: 450px;
+	justify-content: center;
+/*  	align-items: center;*/
+	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.three {
+	grid-area: three;
+	width: 100%;
+	position: relative;
+	text-align: center;
+    height: 450px;
+	justify-content: center;
+/*  	align-items: center;*/
+	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.four {
+	grid-area: four;
+	width: 100%;
+	position: relative;
+	text-align: center;
+    height: 450px;
+	justify-content: center;
+/*  	align-items: center;*/
+	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.five {
+	grid-area: five;
+	width: 100%;
+	position: relative;
+	text-align: center;
+    height: 450px; 
+	justify-content: center;
+/*  	align-items: center;*/
+	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+/*.item{
+	width: 100vw;
+	height: 200vh;
+}*/
+
+
+
+
+/*body {
+	cursor:none;
+	background-image: url(graphics/Cave_Background.png);
+	background-size: cover;
+}
+
+.mask {
+	background-image: url(graphics/Dark_Overlay.png);
+	background: 
+	  radial-gradient(circle 20px 
+	                  at var(--x,0) var(--y,0), 
+	                  #fff 99%,black 100%) 
+	                  fixed;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color:transparent;
+	-webkit-text-fill-color: transparent;
+}*/
