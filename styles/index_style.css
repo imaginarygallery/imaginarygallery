@@ -1,19 +1,33 @@
-
+/*
 body {
-	background-image: url(graphics/background.png);
+	background-image: url(graphics/index_plain_background.png);
+	background-position: center center;
 	background-repeat: no-repeat;
-	background-position: center 10px;
+	background-size: cover;
+	height: 100%;
+	margin: 0px;
+	object-fit: cover;
+	padding: 0px;
+	width: 100%;
+	position: absolute;
+}*/
 
+html { 
+  background: url(graphics/index_plain_background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
 #content {
     position: absolute;
-    top: 5%;
-    right: 0;
+    top: 0;
+    right: 100px;
     bottom: 0;
     left: 0;
-    background-image: url(graphics/Fountains.gif);
+    background-image: url(graphics/All-Layers-Fountain-Overlay-highlights.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 500px;
