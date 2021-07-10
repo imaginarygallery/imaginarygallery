@@ -1,12 +1,19 @@
 
 window.onload = function() {
-    window.scroll({top: document.body.scrollHeight});
+    window.scroll({top: document.body.scrollHeight, behavior: 'auto'});
     document.getElementById('loading-panel').classList.add('loaded');
 }
 
 function scrollToSky(e) {
     e.preventDefault();
+    e.stopPropagation();
     window.scroll({top: 0, behavior: "smooth"});
+}
+
+function scrollToFloor(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    window.scroll({top: document.body.scrollHeight, behavior: "smooth"});
 }
 
 function toggleSky(e) {

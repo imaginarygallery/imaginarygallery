@@ -32,6 +32,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	transition: background-image 1s ease; /* Doesn't work in Firefox, but, whatever */
+
+	position: relative;
 }
 
 #hang-room-sky.background-wash {
@@ -65,7 +67,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-#look-up {
+#look-up, #look-down {
 	display: flex;
 	justify-content: center;
 }
@@ -79,4 +81,23 @@ body {
 	background-size: cover;
 	border: none;
 	box-shadow: 2px 5px 5px #0b5629;
+}
+
+#look-down {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.look-down-button {
+	cursor: pointer;
+	/* TODO replace with a proper "Look down" button */
+	background: url('graphics/look-up.jpg');
+	transform: rotate(180deg);
+	color: transparent;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	border: none;
+	box-shadow: 2px 5px 5px black;
 }
