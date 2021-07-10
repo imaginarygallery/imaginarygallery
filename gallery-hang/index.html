@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Gallery Hang Room</title>
+    <link rel="stylesheet" type="text/css" href="gallery_hang_style.css">
+</head>
+<body id="hang-room-body">
+    <div id="hang-room-sky" class="background-wash" onclick="toggleSky(event)">
+        <div id="look-down">
+            <button class="look-down-button" onclick="scrollToFloor(event)">Look down</button>
+        </div>
+
+    </div>
+
+    <div id="hang-room-staircase">
+
+    </div>
+
+    <div id="hang-room-floor">
+        <div id="look-up">
+            <button class="look-up-button" onclick="scrollToSky(event)">Look up</button>
+        </div>
+
+    </div>
+
+    <div id="loading-panel">Loading...</div>
+
+    <script type="text/javascript" src="hang-room.js"></script>
+</body>
+</html>

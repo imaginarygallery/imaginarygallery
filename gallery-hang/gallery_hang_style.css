@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+}
+
+#loading-panel {
+	height: 100vh;
+	width: 100vw;
+	background: #2eb281; /* Eyedropped from floor background */
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	opacity: 1;
+	transition: opacity 0.2s ease, height 1s steps(1); /* Fade out, then hide completely */
+}
+
+#loading-panel.loaded {
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+#hang-room-sky {
+	min-height: 100vh;
+	background-color: #56a0c7;
+	background-image: url('graphics/plain_sky_placeholder.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: background-image 1s ease; /* Doesn't work in Firefox, but, whatever */
+
+	position: relative;
+}
+
+#hang-room-sky.background-wash {
+	/* Default, see above */
+}
+
+#hang-room-sky.background-clouds {
+	background-color: #b2e3ff;
+	background-image: url('graphics/5-collage-animation.gif');
+}
+
+#hang-room-sky.background-stars {
+	background-color: #1b0e1a; /* Eyedropped from background */
+	background-image: url('graphics/starry_night.jpg');
+}
+
+#hang-room-staircase {
+	min-height: 313.3vw; /* Aspect ratio of image * 100 */
+	background-color: #209784; /* Eyedropped from background */
+	background-image: url('graphics/hang_room_staircase.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#hang-room-floor {
+	min-height: 100vh;
+	background-color: #2eb281; /* You guessed it, eyedropped from background */
+	background-image: url('graphics/hang_room_floor.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+#look-up, #look-down {
+	display: flex;
+	justify-content: center;
+}
+
+.look-up-button {
+	cursor: pointer;
+	background: url('graphics/look-up.jpg');
+	color: transparent;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	border: none;
+	box-shadow: 2px 5px 5px #0b5629;
+}
+
+#look-down {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.look-down-button {
+	cursor: pointer;
+	/* TODO replace with a proper "Look down" button */
+	background: url('graphics/look-up.jpg');
+	transform: rotate(180deg);
+	color: transparent;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	border: none;
+	box-shadow: 2px 5px 5px black;
+}
