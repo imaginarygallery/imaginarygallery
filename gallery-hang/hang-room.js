@@ -1,4 +1,3 @@
-
 window.onload = function() {
     window.scroll({top: document.body.scrollHeight, behavior: 'auto'});
     document.getElementById('loading-panel').classList.add('loaded');

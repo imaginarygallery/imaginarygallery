@@ -101,3 +101,22 @@ body {
 	border: none;
 	box-shadow: 2px 5px 5px black;
 }
+
+button {
+	user-select: none;
+}
+
+.gallery-container {
+	position: relative;
+}
+
+.artwork-container {
+	position: absolute;
+}
+
+.artwork-frame {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
