@@ -3,7 +3,7 @@
 }*/
 
 body {
-	min-height: 450px;
+	/*min-height: 450px;*/
 	margin: 0px;
 }
 
@@ -26,7 +26,8 @@ body {
 	grid-template-areas: 
     "one two" 
     "three four"; 
-    min-height: 600px;
+    min-height: 800px;
+    min-width: 1000px;
 }
 
 .container {
@@ -45,46 +46,48 @@ body {
 
 
 .frame{
-	position: relative;
-	top: 50%; 
-	left: 50%;
-  	transform: translate(-50%,-50%);
+	position: absolute;
+	/*left: 50%;*/
+  	/*transform: translate(-50%,-50%);*/
 	/*text-align: center;*/
-    height: 250px;
+    height: 350px;
+    width: 350px;
 	/*justify-content: center;*/
-	/*margin-top: 10%;*/
+	/*margin: 10%;*/
 	/*margin-bottom: 70%;*/
 	/*padding: 20%; */
-/*	align-items: center;
-  	align-items: center;*/
+	/*align-items: center;*/
   	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 300px;
 	max-height: 600px;
+	background-size: 100%;
 }
 
 #frame1 {
 	background-image: url('graphics/reflection/r4_frame2_left.png');
-	background-size: 60%;
-	right: 650px;
-}
-
-#frame4 {
-	background-image: url('graphics/reflection/r4_frame1_right.png');
-	background-size: 40%;
-	left: 250px;
+	bottom: 0px;
+	right: 100px;	
 }
 
 #frame2 {
 	background-image: url('graphics/reflection/r4_frame2_right.png');
-	background-size: 60%;
-	right: 650px;
+	bottom: 0px;
+	left: 100px;
 
 }
 
 #frame3 {
 	background-image: url('graphics/reflection/r4_frame1_left.png');
-	background-size: 40%;
-	left: 250px;
+	top: 0px;
+	right: 150px;
 }
+
+#frame4 {
+	background-image: url('graphics/reflection/r4_frame1_right.png');
+	top: 0px;
+	left: 150px;
+}
+
+
 
