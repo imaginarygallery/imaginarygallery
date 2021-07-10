@@ -2,6 +2,29 @@ body {
 	margin: 0;
 }
 
+#loading-panel {
+	height: 100vh;
+	width: 100vw;
+	background: #2eb281; /* Eyedropped from floor background */
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	opacity: 1;
+	transition: opacity 0.2s ease, height 1s steps(1); /* Fade out, then hide completely */
+}
+
+#loading-panel.loaded {
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+
 #hang-room-sky {
 	min-height: 100vh;
 	background-color: #1b0e1a; /* Eyedropped from background */
