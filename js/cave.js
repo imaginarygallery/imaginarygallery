@@ -186,7 +186,7 @@ window.onclick = function(event) {
 
 
 let container = document.querySelector('#overlay');
-const RADIUS = 60;
+let RADIUS = 60;
 
 document.addEventListener('mousemove', function (event) {
   let x = event.pageX;
@@ -207,6 +207,13 @@ document.addEventListener('mousemove', function (event) {
 
   if (up !== true) {
 	container.style['-webkit-clip-path'] = circle;
+	container.style['clip-path'] = circle;
+  };
+
+  if (up === true) {
+  	let RADIUS = 0;
+  	let circle = `circle(${RADIUS}px at ${x}px ${y}px)`;
+  	container.style['-webkit-clip-path'] = circle;
 	container.style['clip-path'] = circle;
   };
 });
