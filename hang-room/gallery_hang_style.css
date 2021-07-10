@@ -49,3 +49,19 @@ body {
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
+
+#look-up {
+	display: flex;
+	justify-content: center;
+}
+
+.look-up-button {
+	cursor: pointer;
+	background: url('graphics/look-up.jpg');
+	color: transparent;
+	width: 250px;
+	height: 250px;
+	background-size: cover;
+	border: none;
+	box-shadow: 2px 5px 5px #0b5629;
+}
