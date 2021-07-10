@@ -1,9 +1,9 @@
-/*html {
+html {
   height: 100%;
-}*/
+}
 
 body {
-	/*min-height: 400px;*/
+	min-height: 100%;
 	margin: 0px;
 }
 
@@ -20,21 +20,11 @@ body {
 	width: 100%;
 	position: absolute;
 	display: grid;
-	grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr; 
+	grid-template-columns: 0.20fr 0.30fr 0.30fr 0.20fr; 
 	grid-template-rows: 1fr; 
 	gap: 0px 0px; 
 	grid-template-areas: 
     "one two three four"; 
-    /*min-height: 80px;*/
-    /*min-height: 800px;*/
-    min-width: 1280px;
-    min-height: 800px;
-    max-height: 1500px;
-}
-
-.container {
-	position: relative;
-	min-width: 320px;
 }
 
 .one { 
@@ -44,85 +34,67 @@ body {
 .three { grid-area: three; }
 .four { grid-area: four; }
 
-.frame {
-	position: absolute;
-	height: 250px;
-    width: 250px;
-  	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 300px;
-	/*max-height: 600px;*/
-
-	background-size: 90%;
-}
-
 #frame1 {
 	background-image: url('graphics/reflection/r1_frame1_left.png');
-	left: 0px;
-/*	bottom: 0px;
-	right: 100px;	*/
-/*	position: relative;
+	position: relative;
 	text-align: center;
     height: 200px;
 	justify-content: center;
-	margin-top: 10%;*/
+	margin-top: 10%;
 	/*margin-bottom: 70%;*/
-/*	padding: 20%; 
-	align-items: center;*/
+	padding: 20%; 
+	align-items: center;
 /*  	align-items: center;*/
-/*	background-size: 80%;
+	background-size: 80%;
 	background-repeat: no-repeat;
-	background-position: center;*/
+	background-position: center;
 }
 
 #frame4 {
 	background-image: url('graphics/reflection/r1_frame1_right.png');
-	right: 0px;
-/*	position: relative;
+	position: relative;
 	text-align: center;
     height: 200px;
 	justify-content: center;
-	margin-top: 10%;*/
+	margin-top: 10%;
 	/*margin-bottom: 70%;*/
-	/*padding: 20%; 
-	align-items: center;*/
+	padding: 20%; 
+	align-items: center;
 /*  	align-items: center;*/
-/*	background-size: 80%;
+	background-size: 80%;
 	background-repeat: no-repeat;
-	background-position: center;*/
+	background-position: center;
 }
 
 #frame2 {
 	background-image: url('graphics/reflection/r1_frame2_left.png');
-	right: 0px;
-/*	position: relative;
+	position: relative;
 	text-align: center;
     height: 200px;
 	justify-content: center;
-	margin-top: 25%;*/
+	margin-top: 25%;
 	/*margin-bottom: 70%;*/
-/*	padding: 20%; 
-	align-items: center;*/
+	padding: 20%; 
+	align-items: center;
 /*  	align-items: center;*/
-/*	background-size: 60%;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position: center;*/
+	background-position: center;
 }
 
 #frame3 {
 	background-image: url('graphics/reflection/r1_frame2_right.png');
-	left: 0px;
-/*	position: relative;
+	position: relative;
 	text-align: center;
     height: 200px;
 	justify-content: center;
-	margin-top: 25%;*/
+	margin-top: 25%;
 	/*margin-bottom: 70%;*/
-/*	padding: 20%; 
-	align-items: center;*/
+	padding: 20%; 
+	align-items: center;
 /*  	align-items: center;*/
-/*	background-size: 60%;
+	background-size: 60%;
 	background-repeat: no-repeat;
-	background-position: center;*/
+	background-position: center;
 }
 
