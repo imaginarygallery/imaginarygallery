@@ -27,10 +27,25 @@ body {
 
 #hang-room-sky {
 	min-height: 100vh;
-	background-color: #1b0e1a; /* Eyedropped from background */
-	background-image: url('graphics/hang_room_sky.jpg');
+	background-color: #56a0c7;
+	background-image: url('graphics/plain_sky_placeholder.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	transition: background-image 1s ease; /* Doesn't work in Firefox, but, whatever */
+}
+
+#hang-room-sky.background-wash {
+	/* Default, see above */
+}
+
+#hang-room-sky.background-clouds {
+	background-color: #b2e3ff;
+	background-image: url('graphics/5-collage-animation.gif');
+}
+
+#hang-room-sky.background-stars {
+	background-color: #1b0e1a; /* Eyedropped from background */
+	background-image: url('graphics/starry_night.jpg');
 }
 
 #hang-room-staircase {
