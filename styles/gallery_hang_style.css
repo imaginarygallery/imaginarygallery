@@ -1,3 +1,21 @@
-body#hang-room-body {
-	background-image: url('graphics/hang_room_background.jpg');
+body {
+	margin: 0;
+}
+
+#hang-room-sky {
+	min-height: 100vh;
+	background-image: url('graphics/hang-room/hang_room_sky.jpg');
+	background-size: 100% auto;
+}
+
+#hang-room-staircase {
+	min-height: 313.3vw; /* Aspect ratio of image * 100 */
+	background-image: url('graphics/hang-room/hang_room_staircase.jpg');
+	background-size: 100% auto;
+}
+
+#hang-room-floor {
+	min-height: 100vh;
+	background-image: url('graphics/hang-room/hang_room_floor.jpg');
+	background-size: 100% auto;
 }
