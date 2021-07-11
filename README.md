@@ -5,8 +5,9 @@
 1. Install [node and npm](https://nodejs.org/en/download/) and [Visual Studio Code](https://code.visualstudio.com/)
 1. Clone this repository using Git ([quick refresher if you need it](https://guides.github.com/activities/hello-world/))
 1. Open VS Code and hit "Open Folder" > select this folder
-1. Press Ctrl+' or Terminal > New Terminal to open a terminal window
+1. Press Ctrl+' or Terminal > New Terminal to open a terminal window.
 1. Run `npm install --global http-server` (or `npm i -g http-server`)
+1. Run `http-server`. If you get an error message like "http-server.ps1 cannot be loaded because running scripts is disabled on this system", try opening a Bash terminal window instead of a Powershell one.
 
 ## Development
 
