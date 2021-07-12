@@ -4,6 +4,17 @@
     top: 0;
     background: white;
     z-index: 1;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu #open-menu-button {
+    position: absolute;
+    right: 0;
+}
+
+#menu.closed #open-menu-button ~ * {
+    display: none;
 }
 
 #menu.open {
@@ -15,4 +26,22 @@
 
 #menu.open ~ * {
     filter: blur(3px);
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu ul li {
+    margin-bottom: 12px;
+}
+
+#menu a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
 }
