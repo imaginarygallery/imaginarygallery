@@ -10,7 +10,11 @@
 </head>
 <body>
 	<div id="menu" class="closed">
-		<button id="open-menu-button" onclick="toggleMenu(event);">Open Menu</button>
+		<button id="open-menu-button" onclick="toggleMenu(event);">
+			<img id="open-menu-button-image" src="/shared/menu/Logo.gif" height=90>
+			<img id="close-menu-button-image" src="/shared/menu/Logo-to-Cross-onetime.gif" height=90 hidden>
+			<span id="open-menu-button-text" class="visually-hidden">Open Menu</span>
+		</button>
 		<ul class="menu-list">
 			<li><a href="/cave.html">Explore</a></li>
 			<li><a href="/map.html">Map</a></li>
