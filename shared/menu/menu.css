@@ -1,0 +1,75 @@
+#menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    width: 111.69px;
+    height: 90px;
+    transition: right 1s ease-in-out, top 1s ease-in-out, width 1s ease-in-out, height 1s ease-in-out,
+        background-color 1s ease;
+    /* transition-property: right, top, width, height;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s; */
+
+    z-index: 1;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#menu #open-menu-button {
+    float: right;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 
+ * Utility class to hide content visually while keeping it screen reader-accessible.
+ * Source: https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html 
+ */
+ .visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(100%); 
+    height: 1px; 
+    overflow: hidden; 
+    position: absolute; 
+    white-space: nowrap; 
+    width: 1px; 
+}
+
+#menu.open {
+    width: 90%;
+    height: 90%;
+    right: 5%;
+    top: 5%;
+    background-color: white;
+}
+
+#menu .menu-content {
+    padding-left: 20vw;
+    padding-top: 30vh;
+}
+
+#menu ul.menu-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+#menu ul li {
+    margin-bottom: 12px;
+}
+
+#menu a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu.open ~ * {
+    filter: blur(3px);
+}
