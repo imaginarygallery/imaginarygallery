@@ -1,0 +1,105 @@
+/*html {
+  height: 100%;
+}*/
+
+body {
+	min-height: 450px;
+	margin: 0px;
+}
+
+
+#content {
+	background-image: url('reflection/Reflection_Room_Rotation_3.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin: 0px;
+	object-fit: cover;
+	padding: 0px;
+	width: 100%;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 0.20fr 0.30fr 0.30fr 0.20fr; 
+	grid-template-rows: 1fr; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+    "one two three four"; 
+    min-width: 1250px;
+    min-height: 710px;
+    max-height: 1500px;
+}
+.container {
+	position: relative;
+}
+.one { 
+	grid-area: one; 
+}
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+
+
+.frame {
+	position: absolute;
+    height: 400px;
+    bottom: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#frame1 {
+	background-image: url('reflection/r3_frame1_left.png');
+	top: 390px;
+	left: 10px;
+    background-size: 100%;
+    width: 240px;
+    height: 290px;
+
+}
+
+#frame4 {
+	background-image: url('reflection/r3_frame1_right.png');
+	top: 390px;
+	right: 10px;
+    background-size: 100%;
+	width: 240px;
+	height: 290px;
+}
+
+#frame2 {
+	background-image: url('reflection/r3_frame2_left.png');
+	top: 420px;
+	right: 40px;
+    background-size: 100%;
+    width: 260px;
+    height: 300px;
+}
+
+#frame3 {
+	background-image: url('reflection/r3_frame2_right.png');
+	top: 420px;
+	left: 40px;
+    background-size: 100%;
+    width: 260px;
+	height: 300px;
+}
+
+#previous {
+	background-image: url('reflection/arrow_left.png');
+}
+
+#next {
+	background-image: url('reflection/arrow_right.png');
+}
+
+.arrow {
+	position: absolute;
+  	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	height: 130px;
+	width: 200px;
+	background-size: 150%;
+	top: 100px;
+}
