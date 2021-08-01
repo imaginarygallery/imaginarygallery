@@ -9,7 +9,7 @@ body {
 
 
 #content {
-	background-image: url('graphics/reflection/Reflection_Room_Rotation_4.png');
+	background-image: url('reflection/Reflection_Room_Rotation_4.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,8 +26,8 @@ body {
 	grid-template-areas: 
     "one two" 
     "three four"; 
-    min-height: 800px;
-    min-width: 1000px;
+    min-width: 1250px;
+    min-height: 695px;
 }
 
 .container {
@@ -50,7 +50,7 @@ body {
 	/*left: 50%;*/
   	/*transform: translate(-50%,-50%);*/
 	/*text-align: center;*/
-    height: 350px;
+    height: 300px;
     width: 350px;
 	/*justify-content: center;*/
 	/*margin: 10%;*/
@@ -65,29 +65,61 @@ body {
 }
 
 #frame1 {
-	background-image: url('graphics/reflection/r4_frame2_left.png');
+	background-image: url('reflection/r4_frame2_left.png');
 	bottom: 0px;
-	right: 100px;	
+	right: 50px;	
 }
 
 #frame2 {
-	background-image: url('graphics/reflection/r4_frame2_right.png');
+	background-image: url('reflection/r4_frame2_right.png');
 	bottom: 0px;
-	left: 100px;
+	left: 50px;
 
 }
 
 #frame3 {
-	background-image: url('graphics/reflection/r4_frame1_left.png');
-	top: 0px;
-	right: 150px;
+	background-image: url('reflection/r4_frame1_left.png');
+	top: 30px;
+	right: 100px;
 }
 
 #frame4 {
-	background-image: url('graphics/reflection/r4_frame1_right.png');
-	top: 0px;
-	left: 150px;
+	background-image: url('reflection/r4_frame1_right.png');
+	top: 30px;
+	left: 100px;
 }
 
+#previous {
+	background-image: url('reflection/arrow_left.png');
+	left: 10px;
+}
 
+#next {
+	background-image: url('/styles/graphics/button2.png');
+	right: 10px;
+	position: absolute;
+  	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	height: 100px;
+	width: 150px;
+	background-size: 100%;
+	top: -20px;
+	font-size: 18px;
+	font-family: Georgia;
+	text-align: center;
+	align-items: center;
+	line-height: 100px;
+}
+
+.arrow {
+	position: absolute;
+  	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	height: 140px;
+	width: 200px;
+	background-size: 150%;
+	top: 0px;
+}
 

@@ -1,0 +1,108 @@
+/*html {
+  height: 100%;
+}*/
+
+body {
+	min-height: 450px;
+	margin: 0px;
+}
+
+
+#content {
+	background-image: url('reflection/Reflection_Room_Rotation_2.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin: 0px;
+	object-fit: cover;
+	padding: 0px;
+	width: 100%;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr; 
+	grid-template-rows: 0.5fr 0.5fr; 
+	gap: 0px 250px; 
+	grid-template-areas: 
+    "one two" 
+    "three four"; 
+    min-width: 1250px;
+    min-height: 700px;
+    max-height: 1500px;
+}
+
+.container {
+	position: relative;
+}
+
+.one { 
+	grid-area: one; 
+}
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+
+
+/*TODO: MAX AND MIN HEIGHT FOR FRAMES*/
+
+
+.frame{
+	position: absolute;
+  	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90%;
+}
+
+#frame1 {
+	background-image: url('reflection/r2_frame1_left.png');
+	left: 0px;
+	top: 0px;
+	height: 400px;
+    width: 400px;
+}
+
+#frame4 {
+	background-image: url('reflection/r2_frame2_right.png');
+	right: 40px;
+	top: 0px;
+	height: 350px;
+    width: 350px;
+
+}
+
+#next {
+	background-image: url('reflection/arrow_right.png');
+	left: -100px;
+}
+
+#frame2 {
+	background-image: url('reflection/r2_frame1_right.png');
+	right: 0px;
+	top: 0px;
+	height: 400px;
+    width: 400px;
+}
+
+#frame3 {
+	background-image: url('reflection/r2_frame2_left.png');
+	left: 40px;
+	top: 0px;
+	height: 350px;
+    width: 350px;
+}
+
+#previous {
+	background-image: url('reflection/arrow_left.png');
+	right: -120px;
+}
+
+.arrow {
+	position: absolute;
+  	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	height: 130px;
+	width: 200px;
+	background-size: 150%;
+	top: 20px;
+}

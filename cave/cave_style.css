@@ -45,7 +45,7 @@ body {
 	padding: 20%; 
 	align-items: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -64,7 +64,7 @@ body {
 	padding: 20%; 
 	align-items: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -83,7 +83,7 @@ body {
 	align-items: center;
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -103,7 +103,7 @@ body {
 	align-items: center;
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -121,7 +121,7 @@ body {
 	padding: 20%; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -140,7 +140,7 @@ body {
 	padding: 20%; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -158,7 +158,7 @@ body {
 	padding: 20%; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -177,7 +177,7 @@ body {
 	padding: 20%; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -195,7 +195,7 @@ body {
 	padding: 20%; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/styles/graphics/Frames/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -214,7 +214,7 @@ body {
 	padding: 20%; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(graphics/Gold_2_Dark.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -235,7 +235,7 @@ body {
     /*height: 200px;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -254,7 +254,7 @@ body {
     /*height: 200px;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -272,7 +272,7 @@ body {
     /*height: 200px;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -291,7 +291,7 @@ body {
     height: 200px;
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -309,7 +309,7 @@ body {
     /*height: 200px;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -328,7 +328,7 @@ body {
     /*height: 200px;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -347,7 +347,7 @@ body {
 	justify-content: center;
 	/*padding: 100%;*/
   	align-items: center;
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -367,7 +367,7 @@ body {
 	justify-content: center;
 	/*padding: 100%;*/
   	align-items: center;
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -385,7 +385,7 @@ body {
     /*height: 100%;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -404,7 +404,7 @@ body {
     /*height: 100%;*/
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -677,7 +677,7 @@ body {
 	height: 100%;
 	width: 100%;
 	/*flex: 0 0 auto;*/
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 /*	top: 0;
 	left: 0;*/
 /*	align-self: center;
@@ -686,7 +686,7 @@ body {
     /*height: 100%;*/
 	/*justify-content: center;*/
   	align-items: center;
-	background: url(graphics/Frames/Image_placeholder.png); 
+	background: url(/styles/graphics/Frames/Image_placeholder.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: top left;

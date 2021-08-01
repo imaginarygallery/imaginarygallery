@@ -1,11 +1,17 @@
 
 body {
-	margin-top: 0;		
+	margin-top: 0;	
+
 }
 
 .slide {
 	width: 100vw;
 	height: 100vh;
+	justify-content: center;
+  	align-items: center;
+  	position: relative;
+	display: flex;
+	/*min-width: 100%;*/
 }
 
 .outer-wrapper {
@@ -18,151 +24,75 @@ body {
 	position: absolute;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
+	min-height: 1000px;
 
 }
 
 .wrapper {
-	background-image: url(graphics/tapestry_dummy_wallpaper.jpeg);
+	background-color: rgb(255, 204, 153);
 	display: flex;
 	flex-direction: row;
-	width: 300vw;
+	width: 400vw;
 	transform: rotate(90deg) translateY(-100vh);
 	transform-origin: top left;
 }
 .one {
 /*	text-align: center;*/
-	justify-content: center;
-  	align-items: center;
-	display: grid;
-	grid-template-columns: 0.9fr 1.6fr 0.5fr;
-	grid-template-rows: 0.2fr 2.4fr 0.4fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	  ". . ."
-	  ". one_frame_container ."
-	  ". . .";
+
 }
 
-.one_frame_container { 
-	width: 500px;
-    height: 450px;
+#ab1_entrance { 
+	position: absolute;
+	width: 1000px;
+    height: 250px;
 	grid-area: one_frame_container; 
 	justify-content: center;
 /*  	align-items: center;*/
-	background: url(graphics/Frames/Gold_2_Dark.png); 
+	background: url(/tapestry/graphics/tapestry_entrance.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
-/*	background-position: center;*/
-	transform: translateX(-70%); 
-	transform: translateY(-20%);
+	left: 50px;
 }	
 
-
-
-.two {
-	text-align: center;
-	justify-content: center;
-  	align-items: center;
-	display: grid;
-	grid-template-columns: 0.2fr 2.3fr 0.5fr;
-	grid-template-rows: 1.1fr 1.5fr 0.4fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	  ". . ."
-	  ". two_frame_container ."
-	  ". . .";
-}
-
-.two_frame_container { 
+#ab1_medium_frame { 
+	position: absolute;
 	width: 500px;
     height: 450px;
-	grid-area: two_frame_container; 
 	justify-content: center;
   	align-items: center;
-	background: url(graphics/Frames/Gold_Shape_Warm.png); 
+	background: url(/tapestry/graphics/medium_rectangle_frame.png); 
 	background-size: 90%;
 	background-repeat: no-repeat;
 	background-position: center;
-	transform: translateX(30%); 
-	transform: translateY(10%);
 }
 
-
-
-.three {
-	text-align: center;
-	justify-content: center;
-  	align-items: center;
-	display: grid;
-	grid-template-columns: 0.2fr 2.3fr 0.5fr;
-	grid-template-rows: 0.2fr 2.4fr 0.4fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	  ". . ."
-	  ". three_frame_container ."
-	  ". . .";
-}
-
-.three_frame_container { 
-	width: 500px;
+#ab2_medium_rectangle_vertical_frame { 
+	position: absolute;
+	width: 480px;
     height: 450px;
-	grid-area: three_frame_container; 
 	justify-content: center;
   	align-items: center;
-	background: url(graphics/Frames/Gold_2_Soft.png); 
+	background: url(/tapestry/graphics/medium_rectangle_vertical_frame.png); 
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center;
-	transform: translateX(20%); 
-	transform: translateY(-10%);
+	left: 0px;
 }
 
-
-
-.four {
-	text-align: center;
+#ab2_split_frame_1 {
+	position: absolute;
+	width: 400px;
+    height: 550px;
 	justify-content: center;
   	align-items: center;
-	display: grid;
-	grid-template-columns: 0.2fr 2.3fr 0.5fr;
-	grid-template-rows: 0.2fr 2.4fr 0.4fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	  ". . ."
-	  ". four_frame_container ."
-	  ". . .";
-}
-
-
-
-.four_frame_container { 
-	width: 500px;
-    height: 450px;
-	grid-area: four_frame_container; 
-	justify-content: center;
-  	align-items: center;
-	background: url(graphics/Frames/Gold_Frame_Black.png); 
-	background-size: 80%;
+	background: url(/tapestry/graphics/split_frame_1.png); 
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
-	transform: translateX(20%); 
-	transform: translateY(35%);
+	left: 490px;
 }
 
 
-.five {
-	text-align: center;
-	justify-content: center;
-  	align-items: center;
-	display: grid;
-	grid-template-columns: 0.2fr 2.3fr 0.5fr;
-	grid-template-rows: 0.2fr 2.4fr 0.4fr;
-	gap: 0px 0px;
-	grid-template-areas:
-	  ". . ."
-	  ". next_room ."
-	  ". . .";
-}
 
 
 
@@ -207,7 +137,7 @@ body {
 
 
 .button {
-	background: url(graphics/button2.png);
+	background: url(/styles/graphics/button2.png);
 	background-size: 150px 150px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -230,7 +160,7 @@ body {
 .button:hover {
 	cursor: pointer;
 	border: none;
-	background: url(graphics/button2.png);
+	background: url(/styles/graphics/button2.png);
 	background-size: 157px 157px;
 	background-repeat: no-repeat;
 	background-position: center;
