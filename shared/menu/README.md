@@ -23,7 +23,13 @@
 <script type="text/javascript" src="/shared/menu/menu.js"></script>
 
 ```
-1. That's it!
+2. That's it!
+
+## Making changes to menu
+
+Add new `<li>` items as you want. Go through all the existing rooms which have menus in them and replace the code there with your new code.
+
+Be sure to make all the hrefs relative to the root folder. That means they should all start with a "/". This will mean the menu works in all rooms, regardless of where the room is (in a subfolder, or a subfolder of a subfolder, or whatever).
 
 ## Gotchas
 
