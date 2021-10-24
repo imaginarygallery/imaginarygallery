@@ -50,8 +50,8 @@ body {
 	/*left: 50%;*/
   	/*transform: translate(-50%,-50%);*/
 	/*text-align: center;*/
-    height: 300px;
-    width: 350px;
+    height: 40vh;
+    width: 20vw;
 	/*justify-content: center;*/
 	/*margin: 10%;*/
 	/*margin-bottom: 70%;*/
@@ -60,7 +60,7 @@ body {
   	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 300px;
-	max-height: 600px;
+	min-width: 300px;
 	background-size: 100%;
 }
 

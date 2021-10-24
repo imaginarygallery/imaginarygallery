@@ -49,12 +49,12 @@ a {
 
 .frame {
 	position: absolute;
-	height: 350px;
-    width: 350px;
+	height: 40vh;
+    width: 20vw;
   	background-repeat: no-repeat;
 	background-position: center;
-	/*min-height: 300px;*/
-	/*max-height: 600px;*/
+	min-height: 275px;
+	min-width: 275px;
 
 	background-size: 80%;
 }

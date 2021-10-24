@@ -4,6 +4,7 @@
 
 body {
 	min-height: 450px;
+	max-height: 250px;
 	margin: 0px;
 }
 
@@ -18,6 +19,7 @@ body {
 	object-fit: cover;
 	padding: 0px;
 	width: 100%;
+	height: 100vh;
 	position: absolute;
 	display: grid;
 	grid-template-columns: 0.5fr 0.5fr; 
@@ -28,7 +30,7 @@ body {
     "three four"; 
     min-width: 1250px;
     min-height: 700px;
-    max-height: 1500px;
+    /*max-height: 1500px;*/
 }
 
 .container {
@@ -51,22 +53,26 @@ body {
   	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 90%;
+	height: 30vh;
+    width: 20vw;
+	min-height: 305px;
+	min-width: 375px;
 }
 
 #frame1 {
 	background-image: url('reflection/r2_frame1_left.png');
 	left: 0px;
 	top: 0px;
-	height: 400px;
-    width: 400px;
+/*	height: 400px;
+    width: 400px;*/
 }
 
 #frame4 {
 	background-image: url('reflection/r2_frame2_right.png');
 	right: 40px;
-	top: 0px;
-	height: 350px;
-    width: 350px;
+	top: 30px;
+/*	height: 350px;
+    width: 350px;*/
 
 }
 
@@ -79,16 +85,16 @@ body {
 	background-image: url('reflection/r2_frame1_right.png');
 	right: 0px;
 	top: 0px;
-	height: 400px;
-    width: 400px;
+/*	height: 400px;
+    width: 400px;*/
 }
 
 #frame3 {
 	background-image: url('reflection/r2_frame2_left.png');
 	left: 40px;
-	top: 0px;
-	height: 350px;
-    width: 350px;
+	top: 30px;
+/*	height: 350px;
+    width: 350px;*/
 }
 
 #previous {
