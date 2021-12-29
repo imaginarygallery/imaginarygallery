@@ -36,19 +36,22 @@ function toggleSky(e) {
     }
 }
 
-function isAnyArtworkSelected() {
-    return !!document.querySelector('.artwork-hang.focussed');
-}
-
 function onArtworkClicked(e) {
     e.stopPropagation();
 
     let frameDiv = e.currentTarget;
     if (frameDiv.classList.contains('focussed')) {
         defocusArtwork(frameDiv);
-    } else {
+        return;
+    }
+
+    if (!isAnyArtworkSelected()) {
         focusArtwork(frameDiv);
     }
+}
+
+function isAnyArtworkSelected() {
+    return !!document.querySelector('.artwork-hang.focussed');
 }
 
 function focusArtwork(frameDiv) {
@@ -77,5 +80,4 @@ function defocusArtwork(frameDiv) {
     frameDiv.classList.remove('focussed');
     document.getElementById('hang-room-sky-overlay').classList.remove('visible');
     frameDiv.addEventListener('transitionend', removeZIndexOverride);
-    console.log("Artwork defocussed");
 }
