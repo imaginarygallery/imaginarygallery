@@ -20,6 +20,7 @@ function scrollToFloor(e) {
 
 function toggleSky(e) {
     e.preventDefault();
+    if (isAnyArtworkSelected()) return;
     const skyDiv = document.getElementById('hang-room-sky');
     const skyOverlayDiv = document.getElementById('hang-room-sky-overlay');
 
@@ -33,6 +34,10 @@ function toggleSky(e) {
         skyDiv.classList.replace('background-wash', 'background-clouds');
         skyOverlayDiv.classList.replace('background-wash', 'background-clouds');
     }
+}
+
+function isAnyArtworkSelected() {
+    return !!document.querySelector('.artwork-hang.focussed');
 }
 
 function onArtworkClicked(e) {
