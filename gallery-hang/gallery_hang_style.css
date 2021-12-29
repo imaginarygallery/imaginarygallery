@@ -153,3 +153,8 @@ button {
 	margin-left: 5rem;
 	min-width: 400px;
 }
+
+.background-stars .artwork-text {
+	background: rgb(27 14 26 / 80%);
+	color: white;
+}
