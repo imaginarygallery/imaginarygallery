@@ -156,3 +156,12 @@ button {
 	background: rgb(27 14 26 / 80%);
 	color: white;
 }
+
+.ig-room-link {
+	position: absolute;
+	bottom: 0;
+}
+
+.ig-next-room {
+	right: 0;
+}
