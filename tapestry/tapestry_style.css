@@ -418,5 +418,16 @@ body {
 	display:none;
 }
 
+.ig-link.ig-room-link {
+	color: #201e59;
+}
 
+.ig-link.ig-room-link:hover {
+	color: #706ccd;
+}
 
+.ig-room-link.ig-previous-room {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
