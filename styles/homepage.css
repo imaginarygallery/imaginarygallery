@@ -1,26 +1,9 @@
 .homepage-background {
-	background-image: url(graphics/index_plain_background.png);
+	background-image: url(graphics/210712-Fountain-with-background.gif);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
     min-height: 100vh;
-
-}
-
-.homepage-fountain {
-    position: absolute;
-    top: 0;
-    right: 100px;
-    bottom: 0;
-    left: 0;
-    background-image: url(graphics/210616-FRAMES-FOUNTAIN.gif);
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 100%;
-	width: 100%;
-	min-height: 400px;
-	min-width: 400px;
-	background-size: 50vh;
 
 }
 
