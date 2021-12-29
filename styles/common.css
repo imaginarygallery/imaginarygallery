@@ -15,3 +15,20 @@ a.ig-link:hover {
     text-decoration: underline;
     color: #b2cc1f; /* Green from logo */
 }
+
+.ig-room-link {
+    padding: 1rem;
+}
+
+.ig-next-room {
+    text-align: right;
+}
+
+.ig-room-arrow {
+    padding-left: 1rem;
+    height: 0.8rem;
+}
+
+.ig-previous-room .ig-room-arrow {
+    transform: scale(-1);
+}

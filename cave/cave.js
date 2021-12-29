@@ -218,6 +218,8 @@ document.addEventListener('mousemove', function (event) {
   };
 });
 
-
-
-
+window.onload = function() {
+  let overlayHeight = document.getElementById('overlay').offsetHeight;
+  let link = document.querySelector('.ig-room-link.ig-next-room');
+  link.style.top = `${overlayHeight - link.offsetHeight}px`;
+}
