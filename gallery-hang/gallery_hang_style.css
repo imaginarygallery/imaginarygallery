@@ -6,7 +6,7 @@ body {
 #loading-panel {
 	height: 100vh;
 	width: 100vw;
-	background: #2eb281; /* Eyedropped from floor background */
+	background: #1d9d93; /* Eyedropped from floor background */
 	color: white;
 	position: fixed;
 	top: 0;
@@ -67,19 +67,12 @@ body {
 	background-image: url('graphics/starry_night.jpg');
 }
 
-#hang-room-staircase {
-	min-height: 313.3vw; /* Aspect ratio of image * 100 */
-	background-color: #209784; /* Eyedropped from background */
-	background-image: url('graphics/hang_room_staircase.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-}
-
 #hang-room-floor {
-	min-height: 100vh;
-	background-color: #2eb281; /* You guessed it, eyedropped from background */
-	background-image: url('graphics/hang_room_floor.jpg');
-	background-size: cover;
+	position: relative;
+	min-height: 231vh;
+	background-color: #fdfa8f; /* You guessed it, eyedropped from background */
+	background-image: url('graphics/211229_galleryhang_refined_smaller_formt.jpg');
+	background-size: 100% auto;
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
@@ -87,6 +80,11 @@ body {
 #look-up, #look-down {
 	display: flex;
 	justify-content: center;
+}
+
+#look-up {
+	position: absolute;
+	bottom: calc(100vh - 250px);
 }
 
 .look-up-button {
@@ -97,7 +95,7 @@ body {
 	height: 250px;
 	background-size: cover;
 	border: none;
-	box-shadow: 2px 5px 5px #0b5629;
+	box-shadow: 2px 5px 5px #194d49;
 }
 
 #look-down {
