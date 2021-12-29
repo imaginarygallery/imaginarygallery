@@ -367,7 +367,7 @@ body {
 
 
 .button {
-	background: url(/styles/graphics/button2.png);
+	background: url(/graphics/button2.png);
 	background-size: 150px 150px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -390,7 +390,7 @@ body {
 .button:hover {
 	cursor: pointer;
 	border: none;
-	background: url(/styles/graphics/button2.png);
+	background: url(/graphics/button2.png);
 	background-size: 157px 157px;
 	background-repeat: no-repeat;
 	background-position: center;
