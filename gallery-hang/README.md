@@ -17,7 +17,7 @@ To add a new image:
                 <img class="artwork" style="width: XXpx; height: XXpx; left: XXpx; top: XXpx;"
                 src="../graphics/your-image-here">
                 <img class="artwork-frame" style="width: XXpx;"
-                src="../styles/graphics/Frames/your-frame-here">
+                src="../graphics/Frames/your-frame-here">
         </div>
         <div class="artwork-text">
                 <h2>Title of artwork by Artist Name</h2>
@@ -33,7 +33,7 @@ For example:
                 <img class="artwork" style="width: 185px; height: 320px; left: 30px; top: 30px;"
                 src="http://placekitten.com/g/185/320">
                 <img class="artwork-frame" style="width: 253px;"
-                src="../styles/graphics/Frames/Gold_4_Gold_Line.png">
+                src="../graphics/Frames/Gold_4_Gold_Line.png">
         </div>
         <div class="artwork-text">
                 <h2>Artwork #5</h2>

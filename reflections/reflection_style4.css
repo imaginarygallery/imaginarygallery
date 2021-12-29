@@ -95,7 +95,7 @@ body {
 }
 
 #next {
-	background-image: url('/styles/graphics/button2.png');
+	background-image: url('/graphics/button2.png');
 	right: 10px;
 	position: absolute;
   	background-repeat: no-repeat;
