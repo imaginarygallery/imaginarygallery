@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
 a.ig-link {
     text-decoration: none;
     color: #93bdd6; /* Blue from logo */
@@ -17,8 +22,11 @@ a.ig-link:hover {
 }
 
 a.ig-room-link {
-    color: white;
     padding: 1rem;
+}
+
+a.ig-white-link {
+    color: white;
 }
 
 a.ig-link.ig-dark-link {
