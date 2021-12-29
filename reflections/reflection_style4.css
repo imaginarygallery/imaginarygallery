@@ -94,24 +94,6 @@ body {
 	left: 10px;
 }
 
-#next {
-	background-image: url('/graphics/button2.png');
-	right: 10px;
-	position: absolute;
-  	background-repeat: no-repeat;
-	background-position: center;
-	justify-content: center;
-	height: 100px;
-	width: 150px;
-	background-size: 100%;
-	top: -20px;
-	font-size: 18px;
-	font-family: Georgia;
-	text-align: center;
-	align-items: center;
-	line-height: 100px;
-}
-
 .arrow {
 	position: absolute;
   	background-repeat: no-repeat;
@@ -123,3 +105,8 @@ body {
 	top: 0px;
 }
 
+.ig-room-link.ig-next-room {
+	position: absolute;
+	right: 10px;
+	top: -25px;
+}

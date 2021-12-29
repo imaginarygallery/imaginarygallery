@@ -16,7 +16,8 @@ a.ig-link:hover {
     color: #b2cc1f; /* Green from logo */
 }
 
-.ig-room-link {
+a.ig-room-link {
+    color: white;
     padding: 1rem;
 }
 
