@@ -725,3 +725,13 @@ div > p {
 	color:transparent;
 	-webkit-text-fill-color: transparent;
 }*/
+
+.ig-link.ig-room-link {
+	position: absolute;
+	z-index: 2;
+	color: white;
+}
+
+.ig-next-room {
+	right: 0;
+}
