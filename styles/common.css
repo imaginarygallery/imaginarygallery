@@ -21,6 +21,14 @@ a.ig-room-link {
     padding: 1rem;
 }
 
+a.ig-link.ig-dark-link {
+	color: #201e59;
+}
+
+a.ig-link.ig-dark-link:hover {
+	color: #706ccd;
+}
+
 .ig-next-room {
     text-align: right;
 }
