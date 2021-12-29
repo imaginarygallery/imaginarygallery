@@ -7,13 +7,8 @@
     height: 90px;
     transition: right 1s ease-in-out, top 1s ease-in-out, width 1s ease-in-out, height 1s ease-in-out,
         background-color 1s ease;
-    /* transition-property: right, top, width, height;
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s; */
 
     z-index: 1;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -64,10 +59,12 @@
     text-transform: lowercase;
     text-decoration: none;
     font-size: 24px;
+    color: #93bdd6; /* Blue from logo */
 }
 
 #menu a:hover {
     text-decoration: underline;
+    color: #b2cc1f; /* Green from logo */
 }
 
 #menu.open ~ * {
