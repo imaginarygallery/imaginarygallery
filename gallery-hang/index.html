@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>Gallery Hang Room</title>
     <link rel="stylesheet" type="text/css" href="gallery_hang_style.css">
-	  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-  	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <script type="text/javascript" src="/shared/smoothscroll.min.js"></script>
 </head>
+
 <body id="hang-room-body">
     <link rel="stylesheet" type="text/css" href="/shared/menu/menu.css">
-	<div id="menu" class="closed">
-		<button id="open-menu-button" onclick="toggleMenu(event);">
-			<img id="open-menu-button-image" src="/shared/menu/Logo.gif" height=90>
-			<img id="close-menu-button-image" src="/shared/menu/Logo-to-Cross-onetime.gif" height=90 hidden>
-			<span id="open-menu-button-text" class="visually-hidden">Open Menu</span>
-		</button>
-		<div class="menu-content">
-			<ul class="menu-list">
-				<li><a href="/cave/cave.html">Explore</a></li>
-				<li><a href="/map.html">Map</a></li>
-				<li><a href="#">What's on</a></li>
-				<li><a href="/about.html">About</a></li>
-			</ul>	
-		</div>
-	</div>
-	<script type="text/javascript" src="/shared/menu/menu.js"></script>
+    <div id="menu" class="closed">
+        <button id="open-menu-button" onclick="toggleMenu(event);">
+            <img id="open-menu-button-image" src="/shared/menu/Logo.gif" height=90>
+            <img id="close-menu-button-image" src="/shared/menu/Logo-to-Cross-onetime.gif" height=90 hidden>
+            <span id="open-menu-button-text" class="visually-hidden">Open Menu</span>
+        </button>
+        <div class="menu-content">
+            <ul class="menu-list">
+                <li><a href="/cave/cave.html">Explore</a></li>
+                <li><a href="/map.html">Map</a></li>
+                <li><a href="#">What's on</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="/shared/menu/menu.js"></script>
 
     <div id="hang-room-sky" class="background-wash" onclick="toggleSky(event)">
         <div id="look-down">
@@ -35,26 +37,31 @@
 
         <div class="container gallery-container">
 
-            <div class="artwork-container"
-                 style="left: 90px; top: 30px;
-                        width: 351px; height: 413px;"
-                        onclick="onArtworkClicked(event)">
-                <img class="artwork" style="margin: 75px 60px;
-                        width: 250px; height: 300px;"
-                     src="http://placekitten.com/g/250/300">
-                <img class="artwork-frame"
-                     src="../styles/graphics/Frames/Gold_2_Dark.png">
+            <div class="artwork-hang" style="left: 90px; top: 30px;" onclick="onArtworkClicked(event)">
+                <div class="artwork-container">
+                    <img class="artwork" style="width: 250px; height: 300px; left: 40px; top: 38px;"
+                        src="http://placekitten.com/g/250/300">
+                    <img class="artwork-frame" style="width: 328px;" src="../styles/graphics/Frames/Gold_2_Dark.png">
+                </div>
+                <div class="artwork-text">
+                    <h2>Artwork #1</h2>
+                    <p>Although you may be looking at Artwork #1 and thinking "Wow, that is such a great artwork", you
+                        should really see artwork #2. It's way better than Artwork #1 in basically every way.</p>
+                </div>
             </div>
 
-            <div class="artwork-container"
-                 style="left: 500px; top: 50px;
-                        width: 319px; height: 406px;"
-                 onclick="onArtworkClicked(event)">
-                <img class="artwork" style="margin: 60px 70px;
-                        width: 185px; height: 320px;"
-                     src="http://placekitten.com/g/185/320">
-                <img class="artwork-frame"
-                     src="../styles/graphics/Frames/Gold_4_Gold_Line.png">
+            <div class="artwork-hang" style="left: 500px; top: 50px;" onclick="onArtworkClicked(event)">
+                <div class="artwork-container">
+                    <img class="artwork" style="width: 185px; height: 320px; left: 30px; top: 30px;"
+                        src="http://placekitten.com/g/185/320">
+                    <img class="artwork-frame" style="width: 253px;"
+                        src="../styles/graphics/Frames/Gold_4_Gold_Line.png">
+                </div>
+                <div class="artwork-text">
+                    <h2>Artwork #2</h2>
+                    <p>Artwork #2 is a beautiful work of art by a very complicated artist who is very smart and full of
+                        brains and creativity.</p>
+                </div>
             </div>
 
 
@@ -78,4 +85,5 @@
 
     <script type="text/javascript" src="hang-room.js"></script>
 </body>
+
 </html>

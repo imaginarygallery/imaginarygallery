@@ -1,3 +1,6 @@
+// Desired distance between moving artworks and the outside of the window:
+const windowPadding = 100;
+
 window.onload = function() {
     window.scroll({top: document.body.scrollHeight, behavior: 'auto'});
     document.getElementById('loading-panel').classList.add('loaded');
@@ -46,10 +49,11 @@ function onArtworkClicked(e) {
 function focusArtwork(frameDiv) {
     let x = parseInt(frameDiv.style.left);
     let y = parseInt(frameDiv.style.top);
-    const destinationX = 100;
-    const destinationY = 100;
+    const destinationX = windowPadding;
+    const destinationY = windowPadding;
     frameDiv.style.transform = `translate(${destinationX - x}px, ${destinationY - y}px)`;
     frameDiv.style.zIndex = 2;
+    frameDiv.style.maxWidth = `calc(100vw - ${windowPadding * 2}px)`;
 
     document.getElementById('hang-room-sky-overlay').classList.add('visible');
     frameDiv.classList.add('focussed');
@@ -59,6 +63,7 @@ function focusArtwork(frameDiv) {
 function removeZIndexOverride(e) {
     let frameDiv = e.currentTarget;
     frameDiv.style.zIndex = null;
+    frameDiv.style.maxWidth = null;
     frameDiv.removeEventListener('transitionend', removeZIndexOverride);
 }
 

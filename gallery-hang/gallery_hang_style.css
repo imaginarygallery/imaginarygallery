@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	overflow-x: hidden; /* Keep getting brief horizontal scrollbars during transitions, so hide */
 }
 
 #loading-panel {
@@ -126,14 +127,29 @@ button {
 	position: relative;
 }
 
-.artwork-container {
+.artwork-hang {
 	position: absolute;
 	transition: transform 1s ease;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
 }
 
 .artwork-frame {
-	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.artwork {
 	position: absolute;
-	left: 0;
-	top: 0;
+}
+
+.artwork-text {
+	display: none;
+}
+
+.artwork-hang.focussed .artwork-text {
+	display: block;
+	margin-left: 5rem;
+	min-width: 400px;
 }
