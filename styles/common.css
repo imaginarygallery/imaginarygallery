@@ -3,3 +3,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+a.ig-link {
+    text-decoration: none;
+    color: #93bdd6; /* Blue from logo */
+}
+
+a.ig-link:hover {
+    text-decoration: underline;
+    color: #b2cc1f; /* Green from logo */
+}
