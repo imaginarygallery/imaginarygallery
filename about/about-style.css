@@ -1,3 +1,10 @@
 a.ig-room-link {
     padding: 0;
 }
+
+body {
+    background: #ffffc6;
+    background-image: url('cans_edit_with_white.jpg');
+    background-size: cover;
+    background-position: center;
+}
