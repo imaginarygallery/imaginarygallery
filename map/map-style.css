@@ -3,5 +3,33 @@
 }
 
 .map-container {
-    text-align: center; /* Quick 'n' dirty - to be replaced with full map */
+    position: relative;
 }
+
+.map-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('29-12-21-map.png');
+    background-size: auto 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.map-overlay {
+    display: flex;
+    justify-content: center;
+    position: relative; /* Makes it appear over .map-background (without hacking z-index) */
+}
+
+.map-room-section {
+    fill: transparent;
+}
+
+.map-room-section:hover {
+    fill: yellow;
+    opacity: 0.5;
+}
+
+/* TODO: at small breakpoint you can't see the left hand side of the map */
