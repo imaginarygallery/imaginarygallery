@@ -8,3 +8,4 @@ Deep purple #201e59
 Bright green #d4e63d
 
 Light blue #c6e4f4
++darker for text #93bdd6
