@@ -49,6 +49,7 @@
 #menu ul.menu-list {
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
 #menu ul li {
@@ -62,4 +63,14 @@
 
 #menu.open ~ * {
     filter: blur(3px);
+}
+
+#menu .menu-mini-link {
+    font-size: 20px;
+}
+
+#menu .menu-section {
+    border-top: 1px solid #93bdd6;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }

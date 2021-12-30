@@ -13,12 +13,12 @@ body {
 
 a.ig-link {
     text-decoration: none;
-    color: #93bdd6; /* Blue from logo */
+    color: #93bdd6;
 }
 
 a.ig-link:hover {
     text-decoration: underline;
-    color: #b2cc1f; /* Green from logo */
+    color: #d4e63d;
 }
 
 a.ig-room-link {
