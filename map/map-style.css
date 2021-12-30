@@ -1,0 +1,7 @@
+#map-background {
+    height: 100vh;
+}
+
+.map-container {
+    text-align: center; /* Quick 'n' dirty - to be replaced with full map */
+}
