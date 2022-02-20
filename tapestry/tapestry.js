@@ -6,9 +6,7 @@ function scrollToFront(e) {
     entrance.scrollIntoView({behaviour: "smooth", block: "start"});
 }
 
-const scrollContainer = document.getElementById('wrapper');
-
+const scrollContainer = document.querySelector('html');
 scrollContainer.addEventListener('wheel', (evt) => {
-    evt.preventDefault();
     scrollContainer.scrollLeft += evt.deltaY;
 });

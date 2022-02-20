@@ -2,32 +2,22 @@
 body {
 	margin-top: 0;	
 	scroll-behavior: smooth;
+	background-color: rgb(255, 204, 153);
+	overflow-y: hidden;
 }
 
-
-
-
 .slide {
-	width: 3000vw;
-	height: 100vh;
-	justify-content: center;
-  	align-items: center;
-  	position: relative;
-	display: flex;
+	position: relative;
 	min-width: 2500px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 
 #wrapper {
-	background-color: rgb(255, 204, 153);
 	display: flex;
-	overflow-x: hidden;
 	flex-direction: row;
 }
-.one {
-/*	text-align: center;*/
-
-}
-
 
 /*Artboard 1*/
 
