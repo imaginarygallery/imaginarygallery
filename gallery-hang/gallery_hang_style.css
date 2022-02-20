@@ -67,12 +67,20 @@ body {
 	background-image: url('graphics/starry_night.jpg');
 }
 
+#hang-room-staircase {
+	min-height: 511.8vw; /* Aspect ratio of image * 100 */
+	background-color: #209784; /* Eyedropped from background */
+	background-image: url('graphics/midsection_only.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
 #hang-room-floor {
 	position: relative;
-	min-height: 231vh;
+	min-height: 56.2vw; /* Aspect ratio of image * 100 */
 	background-color: #fdfa8f; /* You guessed it, eyedropped from background */
-	background-image: url('graphics/211229_galleryhang_refined_smaller_formt.jpg');
-	background-size: 100% auto;
+	background-image: url('graphics/bottomsection_only.jpg');
+	background-size: cover; 
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
