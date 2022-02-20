@@ -27,9 +27,18 @@
     fill: transparent;
 }
 
-.map-room-section:hover {
+.map-room-link:hover .map-room-section {
     fill: yellow;
     opacity: 0.5;
+}
+
+.map-room-name {
+    fill: black;
+    stroke: none;
+}
+
+.map-room-link:hover .map-room-name {
+    fill: yellow;
 }
 
 /* TODO: at small breakpoint you can't see the left hand side of the map */
