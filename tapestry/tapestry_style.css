@@ -2,7 +2,6 @@
 body {
 	margin-top: 0;	
 	scroll-behavior: smooth;
-
 }
 
 
@@ -18,31 +17,11 @@ body {
 	min-width: 2500px;
 }
 
-#outer-wrapper {
-	position: absolute;
-	width: 100vh;
-	height: 100vw;
-	transform: rotate(-90deg) translateX(-100vh);
-	transform-origin: top left;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	position: absolute;
-	scrollbar-width: none;
-	-ms-overflow-style: none;
-	scroll-behavior: smooth;
-	/*min-height: 1000px;*/
-
-}
-
 #wrapper {
-	position: absolute;
 	background-color: rgb(255, 204, 153);
 	display: flex;
+	overflow-x: hidden;
 	flex-direction: row;
-	width: 110vw;
-	min-width: 12500px; /* This property dictates length of full tapestry */
-	transform: rotate(90deg) translateY(-100vh);
-	transform-origin: top left;
 }
 .one {
 /*	text-align: center;*/
@@ -412,10 +391,6 @@ body {
 .button:focus {
 	outline: none;
 	cursor: pointer;
-}
-
-::-webkit-scrollbar {
-	display:none;
 }
 
 .ig-room-link.ig-previous-room {
