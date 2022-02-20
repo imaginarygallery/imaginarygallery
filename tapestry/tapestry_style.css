@@ -1,4 +1,3 @@
-
 body {
 	margin-top: 0;	
 	scroll-behavior: smooth;
@@ -6,7 +5,12 @@ body {
 	overflow-y: hidden;
 }
 
-.slide {
+#wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+.artboard {
 	position: relative;
 	min-width: 2500px;
 	height: 100vh;
@@ -14,220 +18,137 @@ body {
 	align-items: center;
 }
 
-#wrapper {
-	display: flex;
-	flex-direction: row;
+.artboard-item {
+	position: absolute;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 /*Artboard 1*/
 
-
 #ab1_entrance { 
-	position: absolute;
 	width: 1000px;
     height: 250px;
 	grid-area: one_frame_container; 
-	justify-content: center;
-/*  	align-items: center;*/
-	background: url(/tapestry/graphics/tapestry_entrance.png); 
+	background-image: url(/tapestry/graphics/tapestry_entrance.png);
 	background-size: 80%;
-	background-repeat: no-repeat;
 	left: 50px;
 }	
 
 
 
-#ab1_medium_frame { 
-	position: absolute;
+#ab1_medium_frame {
 	width: 500px;
     height: 450px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_rectangle_frame.png); 
+	background-image: url(/tapestry/graphics/medium_rectangle_frame.png);
 	background-size: 90%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 1500px;
 }
 
 
 /*Artboard 2*/
 
-
-#ab2_medium_rectangle_vertical_frame_1 { 
-	position: absolute;
+#ab2_medium_rectangle_vertical_frame_1 {
 	width: 480px;
     height: 450px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_rectangle_vertical_frame.png); 
+	background-image: url(/tapestry/graphics/medium_rectangle_vertical_frame.png);
 	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 0px;
 }
 
 #ab2_split_frame_1 {
-	position: absolute;
 	width: 400px;
     height: 550px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/split_frame_1.png); 
+	background-image: url(/tapestry/graphics/split_frame_1.png);
 	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 590px;
 }
 
 #ab2_medium_frame {
-	position: absolute;
 	width: 500px;
     height: 650px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_rectangle_frame.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/medium_rectangle_frame.png);
 	left: 1000px;
 }
 
 #ab2_split_frame_2 {
-	position: absolute;
 	width: 400px;
     height: 550px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/split_frame_1.png); 
+	background-image: url(/tapestry/graphics/split_frame_1.png);
 	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 1510px;
 }
 
-#ab2_medium_rectangle_vertical_frame_2 { 
-	position: absolute;
+#ab2_medium_rectangle_vertical_frame_2 {
 	width: 480px;
     height: 450px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_rectangle_vertical_frame.png); 
+	background-image: url(/tapestry/graphics/medium_rectangle_vertical_frame.png);
 	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 2020px;
 }
 
 
 /*Artboard 3*/
 
-
-#ab3_birds { 
-	position: absolute;
+#ab3_birds {
 	width: 480px;
     height: 450px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/birds.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/birds.png);
 	left: 500px;
 }
 
-#ab3_large_frame { 
-	position: absolute;
+#ab3_large_frame {
 	width: 680px;
     height: 650px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/large_frame.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/large_frame.png);
 	left: 1500px;
 }
 
 
 /*Artboard 4*/
 
-
-#ab4_medium_square_frame { 
-	position: absolute;
+#ab4_medium_square_frame {
 	width: 440px;
     height: 410px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_square_frame_2.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/medium_square_frame_2.png);
 	left: 100px;
 }
 
-#ab4_medium_rectangle_frame_1 { 
-	position: absolute;
+#ab4_medium_rectangle_frame_1 {
 	width: 530px;
     height: 480px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_rectangle_frame_2.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/medium_rectangle_frame_2.png);
 	left: 600px;
 }
 
 #ab4_storage_cupboard {
-	position: absolute;
 	width: 180px;
     height: 180px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/storage_cupboard.png); 
+	background-image: url(/tapestry/graphics/storage_cupboard.png);
 	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 1600px;
 }
 
-#ab4_medium_rectangle_frame_2{
-	position: absolute;
+#ab4_medium_rectangle_frame_2 {
 	width: 530px;
     height: 480px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_rectangle_frame_2.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/medium_rectangle_frame_2.png);
 	left: 2300px;
 }
 
 
 /*Artboard 5*/
 
-
-#ab5_medium_square_frame { 
-	position: absolute;
+#ab5_medium_square_frame {
 	width: 440px;
     height: 410px;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/medium_square_frame_2.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-image: url(/tapestry/graphics/medium_square_frame_2.png);
 	left: 500px;
 }
 
 
 #ab5_button_elements {
-	position: absolute;
-	/*text-align: center;*/
-/*	justify-content: center;
-  	align-items: center;*/
 	height: 400px;
 	min-width: 550px;
 	left: 75%;
@@ -235,156 +156,35 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-#ab5_reverse_big_star { 
-	position: absolute;
+#ab5_reverse_big_star {
 	width: 180px;
     height: 180px;
     display: inline-block;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/reverse_big_star.png); 
+	background-image: url(/tapestry/graphics/reverse_big_star.png);
 	background-size: 90%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 100px;
 	top: 100px;
 }
 
-#ab5_back_to_top {
+button#ab5_back_to_top {
 	cursor: pointer;
-	position: absolute;
-	width: 220px;
-    height: 100px;
-    display: inline-block;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/back_to_top.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	left: 270px;
-	top: 190px;
+	border: none;
+	background: transparent;
+	font-family: 'Poppins', sans-serif;
+	text-transform: lowercase;
+	font-size: 40px;
+	left: 260px;
+	top: 220px;
 }
 
 #ab5_next_room {
-	position: absolute;
-	width: 220px;
-    height: 100px;
-    display: inline-block;
-	justify-content: center;
-  	align-items: center;
-	background: url(/tapestry/graphics/next_room.png); 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
 	left: 380px;
 	top: 100px;
-}
-
-#next {
-	cursor: pointer;
 	width: 220px;
-    height: 100px;
-    position: absolute;
-    display: inline-block;
-	justify-content: center;
-  	align-items: center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-
-/*.next_room { 
-	width: 500px;
-    height: 450px;
-	grid-area: next_room; 
-	justify-content: center;
-  	align-items: center;
-	background: url(graphics/button2.png); 
-	font-size: 22px;
-	font-family: Georgia;
-	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: center;
-
-
-	text-align: center;
-	margin: 0px;	
-	font-size: 20px;
-	font-family: Georgia;
-	border: none;
-	background-color: transparent;
-
-}
-*/
-
-
-.next_room {
-	width: 500px;
-    height: 450px;
-	grid-area: next_room; 
-	justify-content: center;
-  	align-items: center;
-/*	background: url(graphics/button2.png); */
-	font-size: 22px;
-	font-family: Georgia;
-	background-size: 50%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-
-.button {
-	background: url(/graphics/button2.png);
-	background-size: 150px 150px;
-	background-repeat: no-repeat;
-	background-position: center;
-	text-align: center;
-/*	display: grid;*/
-	align-items: center;
-	justify-content: center;
-	margin: 0px;	
-	font-size: 20px;
-	font-family: Georgia;
-	padding: 70px;
-	border: none;
-	background-color: transparent;
-/*	position: relative;
-	top: 0%;
-	width: 0%*/
-/*	transform: translateY(-50%); */
-}
-
-.button:hover {
-	cursor: pointer;
-	border: none;
-	background: url(/graphics/button2.png);
-	background-size: 157px 157px;
-	background-repeat: no-repeat;
-	background-position: center;
-	text-align: center;
-/*	display: flex;*/
-	align-items: center;
-	justify-content: center;
-	margin: 0px;	
-	font-size: 22px;
-	font-family: Georgia;
-	padding: 70px;
-	border: none;
-	background-color: transparent;
-/*	position: relative;
-	top: 0%;
-	width: 0%*/
-}
-
-.button:focus {
-	outline: none;
-	cursor: pointer;
 }
 
 .ig-room-link.ig-previous-room {
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 1rem;
+	top: 1rem;
 }
