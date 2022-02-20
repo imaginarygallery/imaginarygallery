@@ -155,13 +155,33 @@ button {
 	display: none;
 }
 
+.artwork-close-button {
+	display: none;
+}
+
+.artwork-hang.focussed {
+	pointer-events: none;
+}
+
 .artwork-hang.focussed .artwork-text {
 	display: block;
 	margin-left: 5rem;
 	min-width: 400px;
 }
 
+.artwork-hang.focussed .artwork-close-button {
+	display: block;
+	align-self: start;
+	cursor: pointer;
+	pointer-events: all;
+}
+
 .background-stars .artwork-text {
+	background: rgb(27 14 26 / 80%);
+	color: white;
+}
+
+.background-stars .artwork-close-button {
 	background: rgb(27 14 26 / 80%);
 	color: white;
 }
