@@ -27,6 +27,24 @@
 
 Some specific rooms have guides in their respective folders READMEs.
 
+## Releases
+
+```
+firebase login
+firebase init
+```
+
+- Ready to proceed -> yes
+- Which features? -> Configure files for Firebase Hosting
+- Use an existing project -> galleryproject
+- Public directory -> .
+- Single-page app -> no
+- File _ exists, overwrite -> no
+
+```
+firebase deploy
+```
+
 ## Contributing
 
 Thanks for your interest in contributing to the Imaginary Gallery! We're still in active development so watch this space for more soon.
