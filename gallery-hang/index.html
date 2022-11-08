@@ -35,10 +35,6 @@
     <script type="text/javascript" src="/shared/menu/menu.js"></script>
 
     <div id="hang-room-sky" class="background-wash" onclick="toggleSky(event)">
-        <div id="look-down">
-            <button class="look-down-button" onclick="scrollToFloor(event)">Look down</button>
-        </div>
-
         <div class="gallery-container">
 
             <div class="artwork-hang" style="left: 40px; top: 70px;" onclick="onArtworkClicked(event)">
@@ -107,21 +103,6 @@
                 <div class="artwork-text">
                     <h2>Artwork #2</h2>
                     <p>FRAME 1 - BOTTOM LEFT.</p>
-                </div>
-                <div class="artwork-close-button">(X)</div>
-            </div>
-
-
-            <div class="artwork-hang" style="left: 250px; top: 750px;" onclick="onArtworkClicked(event)">
-                <div class="artwork-container">
-                    <img class="artwork" style="width: 140px; height: 180px; left: 30px; top: 30px;"
-                        src="../gallery-hang/graphics/">
-                    <img class="artwork-frame" style="width: 260px;"
-                        src="../graphics/Frames/RETURN_TO_EARTH.png">
-                </div>
-                <div class="artwork-text">
-                    <h2>Artwork #2</h2>
-                    <p>RETURN TO EARTH.</p>
                 </div>
                 <div class="artwork-close-button">(X)</div>
             </div>
@@ -196,6 +177,10 @@
                 <div class="artwork-close-button">(X)</div>
             </div>
 
+            <div id="look-down" style="left: 1200px; top: 750px;">
+                <button class="look-down-button" onclick="scrollToFloor(event)">Look down</button>
+            </div>
+    
         </div>
 
         <div id="hang-room-sky-overlay" class="background-wash"></div>
