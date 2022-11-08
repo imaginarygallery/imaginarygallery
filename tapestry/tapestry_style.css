@@ -101,7 +101,7 @@ body {
 #ab3_large_frame {
 	width: 680px;
     height: 650px;
-	background-image: url(/tapestry/graphics/large_frame.png);
+	background-image: url("/tapestry/graphics/large_frame.png");
 	left: 1500px;
 }
 
