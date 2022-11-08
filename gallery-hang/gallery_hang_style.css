@@ -28,7 +28,7 @@ body {
 }
 
 #hang-room-sky, #hang-room-sky-overlay {
-	min-height: 139.4vw; /* Aspect ratio of image * 100 */
+	min-height: 1000px;
 	background-color: #56a0c7;
 	background-image: url('graphics/plain_sky_placeholder.jpg');
 	background-size: cover;
@@ -59,13 +59,11 @@ body {
 }
 
 #hang-room-sky.background-clouds, #hang-room-sky-overlay.background-clouds {
-	min-height: 139.4vw; /* Aspect ratio of image * 100 */
 	background-color: #b2e3ff;
 	background-image: url('graphics/topsection_only_clouds_only_photo.jpg');
 }
 
 #hang-room-sky.background-stars, #hang-room-sky-overlay.background-stars {
-	min-height: 139.4vw; /* Aspect ratio of image * 100 */
 	background-color: #1b0e1a; /* Eyedropped from background */
 	background-image: url('graphics/topsection_only_stars_only_photo.jpg');
 }
@@ -117,15 +115,12 @@ body {
 
 .look-down-button {
 	cursor: pointer;
-	/* TODO replace with a proper "Look down" button */
-	background: url('graphics/look-up.jpg');
-	transform: rotate(180deg);
+	background: url('/graphics/Frames/RETURN_TO_EARTH.png');
 	color: transparent;
-	width: 250px;
-	height: 250px;
+	width: 260px;
+	height: 160px;
 	background-size: cover;
 	border: none;
-	box-shadow: 2px 5px 5px black;
 }
 
 button {
