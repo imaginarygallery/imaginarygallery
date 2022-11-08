@@ -29,6 +29,8 @@ Some specific rooms have guides in their respective folders READMEs.
 
 ## Releases
 
+The staging site is on Github Pages and deploys automatically from pushes to `master`. The production site is at imaginarygallery.art and lives on Firebase.
+
 ```
 firebase login
 firebase init
