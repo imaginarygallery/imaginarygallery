@@ -27,6 +27,26 @@
 
 Some specific rooms have guides in their respective folders READMEs.
 
+## Releases
+
+The staging site is on Github Pages and deploys automatically from pushes to `master`. The production site is at imaginarygallery.art and lives on Firebase.
+
+```
+firebase login
+firebase init
+```
+
+- Ready to proceed -> yes
+- Which features? -> Configure files for Firebase Hosting
+- Use an existing project -> galleryproject
+- Public directory -> .
+- Single-page app -> no
+- File _ exists, overwrite -> no
+
+```
+firebase deploy
+```
+
 ## Contributing
 
 Thanks for your interest in contributing to the Imaginary Gallery! We're still in active development so watch this space for more soon.
