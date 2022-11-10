@@ -30,7 +30,7 @@ body {
 #hang-room-sky, #hang-room-sky-overlay {
 	min-height: 1000px;
 	background-color: #56a0c7;
-	background-image: url('graphics/plain_sky_placeholder.jpg');
+	background-image: url('graphics/topsection_only_stars_only_photo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
