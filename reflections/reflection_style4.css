@@ -90,7 +90,7 @@ body {
 }
 
 #previous {
-	background-image: url('reflection/arrow_left.png');
+	background-image: url('rotate_arrow_clockwise.png');
 	left: 10px;
 }
 
