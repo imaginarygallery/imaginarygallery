@@ -1,11 +1,11 @@
 body {
 	background-image: url(graphics/Dark_Overlay.png);
-	background-size: cover;
+	background-size: 2000px;
 }
 
 #overlay {
 	background-image: url(graphics/Cave_Background.png);
-	background-size: cover;
+	background-size: 2000px;
 /*	position: absolute;*/
 	display: grid;
 	grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
