@@ -54,8 +54,9 @@ body {
 	pointer-events: all;
 }
 
-#hang-room-sky.background-wash, #hang-room-sky-overlay.background-wash {
-	/* Default, see above */
+#hang-room-sky.background-stars, #hang-room-sky-overlay.background-stars {
+	background-color: #1b0e1a; /* Eyedropped from background */
+	background-image: url('graphics/topsection_only_stars_only_photo.jpg');
 }
 
 #hang-room-sky.background-clouds, #hang-room-sky-overlay.background-clouds {
@@ -63,9 +64,8 @@ body {
 	background-image: url('graphics/topsection_only_clouds_only_photo.jpg');
 }
 
-#hang-room-sky.background-stars, #hang-room-sky-overlay.background-stars {
-	background-color: #1b0e1a; /* Eyedropped from background */
-	background-image: url('graphics/topsection_only_stars_only_photo.jpg');
+#hang-room-sky.background-wash, #hang-room-sky-overlay.background-wash {
+	/* Default, see above */
 }
 
 #hang-room-staircase {
