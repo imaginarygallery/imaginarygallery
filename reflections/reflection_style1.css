@@ -72,7 +72,7 @@ a {
 	height: 130px;
 	width: 200px;
 	background-size: 200%;
-	background-image: url('reflection/arrow_right.png');
+	background-image: url('rotate_arrow_clockwise.png');
 	bottom: 20px;
 	right: 40px;
 /*	background-color: transparent;
@@ -82,12 +82,12 @@ a {
 }
 
 #frame4 {
-	background-image: url('reflection/r1_frame1_right.png');
+	background-image: url('reflection/Frame_1_mid_rhs.png');
 	right: 0px;
 }
 
 #frame2 {
-	background-image: url('reflection/r1_frame2_left.png');
+	background-image: url('reflection/Frame_1_mid_lhs.png');
 	right: -40px;
 	top: 150px;
 }
