@@ -18,12 +18,12 @@ body {
 	align-items: center;
 }
 
-.artboard-item {
+/* .artboard-item {
 	position: absolute;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-}
+} */
 
 /*Artboard 1*/
 
@@ -49,20 +49,52 @@ body {
 
 /*Artboard 2*/
 
-#ab2_medium_rectangle_vertical_frame_1 {
-	width: 480px;
-    height: 450px;
-	background-image: url(/tapestry/graphics/medium_rectangle_vertical_frame.png);
-	background-size: 80%;
-	left: 0px;
+.artboard-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-#ab2_split_frame_1 {
-	width: 400px;
-    height: 550px;
-	background-image: url(/tapestry/graphics/split_frame_1.png);
-	background-size: 50%;
-	left: 590px;
+.artboard-item .artwork {
+	position: relative;
+}
+
+.artboard-item .artwork .frame {
+	width: 115%;
+    height: 115%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	left: -25px;
+	top: -30px;
+	position: absolute;
+}
+
+.art-text {
+	padding: 2rem;
+	max-width: 250px;
+}
+
+#ab2_medium_rectangle_vertical_frame_1 .artwork {
+	background-image: url('https://placekitten.com/394/451');
+	width: 394px;
+	height: 451px;
+}
+
+#ab2_medium_rectangle_vertical_frame_1 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_rectangle_vertical_frame.png');
+}
+
+#ab1_medium_frame .artwork {
+	width: 183px;
+    height: 452px;
+	background-image: url('https://placekitten.com/183/452');
+	/* background-size: 50%; */
+	/* left: 590px; */
+}
+
+#ab1_medium_frame .artwork .frame {
+	background-image: url('/tapestry/graphics/split_frame_1.png');
 }
 
 #ab2_medium_frame {
@@ -188,3 +220,21 @@ button#ab5_back_to_top {
 	left: 1rem;
 	top: 1rem;
 }
+
+#tapestry-overlay {
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 1s ease;
+	pointer-events: none;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	position: fixed;
+}
+
+#tapestry-overlay.visible {
+	opacity: 1;
+	pointer-events: all;
+}
+

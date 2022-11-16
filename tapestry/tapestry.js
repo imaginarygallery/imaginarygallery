@@ -10,3 +10,30 @@ const scrollContainer = document.querySelector('html');
 scrollContainer.addEventListener('wheel', (evt) => {
     scrollContainer.scrollLeft += evt.deltaY;
 });
+
+function deselect() {
+    document.getElementById('tapestry-overlay').classList.remove('visible');
+}
+
+function select(e, frame) {
+    e.preventDefault();
+    frame.style.zIndex = 2;
+
+    document.getElementById('tapestry-overlay').classList.add('visible');
+
+    console.log(frame.childNodes);
+    var description = frame.querySelector('.art-text').innerHTML;
+    document.getElementById('tapestry-art-text').innerHTML = description;
+
+}
+
+function attachFrameListeners() {
+    document.querySelectorAll('.artboard-item').forEach((frame) => {
+        frame.addEventListener('click', (e) => {
+            select(e, frame);
+        });
+    });
+    document.addEventListener('scroll', deselect);
+}
+attachFrameListeners();
+
