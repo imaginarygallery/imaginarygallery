@@ -20,11 +20,6 @@ function select(e, frame) {
     frame.style.zIndex = 2;
 
     document.getElementById('tapestry-overlay').classList.add('visible');
-
-    console.log(frame.childNodes);
-    var description = frame.querySelector('.art-text').innerHTML;
-    document.getElementById('tapestry-art-text').innerHTML = description;
-
 }
 
 function attachFrameListeners() {

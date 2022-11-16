@@ -18,37 +18,6 @@ body {
 	align-items: center;
 }
 
-/* .artboard-item {
-	position: absolute;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-} */
-
-/*Artboard 1*/
-
-#ab1_entrance { 
-	width: 1000px;
-    height: 250px;
-	grid-area: one_frame_container; 
-	background-image: url(/tapestry/graphics/tapestry_entrance.png);
-	background-size: 80%;
-	left: 50px;
-}	
-
-
-
-#ab1_medium_frame {
-	width: 500px;
-    height: 450px;
-	background-image: url(/tapestry/graphics/medium_rectangle_frame.png);
-	background-size: 90%;
-	left: 1500px;
-}
-
-
-/*Artboard 2*/
-
 .artboard-item {
 	display: flex;
 	flex-direction: row;
@@ -62,7 +31,7 @@ body {
 .artboard-item .artwork .frame {
 	width: 115%;
     height: 115%;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	left: -25px;
@@ -75,83 +44,115 @@ body {
 	max-width: 250px;
 }
 
-#ab2_medium_rectangle_vertical_frame_1 .artwork {
+
+/*Artboard 1*/
+
+#ab1_entrance {
+	margin-left: 8rem;
+	margin-right: 16rem;
+}
+
+#ab1_frame1 .artwork {
+	width: 400px;
+    height: 360px;
+	background-image: url('https://placekitten.com/400/360');
+}
+
+#ab1_frame1 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_rectangle_frame.png');
+}
+
+/*Artboard 2*/
+
+#ab2_frame1 .artwork {
+	background-image: url('https://placekitten.com/384/360');
+	width: 384px;
+	height: 360px;
+}
+
+#ab2_frame1 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_rectangle_vertical_frame.png');
+}
+
+#ab2_frame2 .artwork {
+	width: 213px;
+    height: 452px;
+	background-image: url('https://placekitten.com/213/452');
+}
+
+#ab2_frame2 .artwork .frame {
+	background-image: url('/tapestry/graphics/split_frame_1.png');
+}
+
+#ab2_frame3 .artwork {
+	width: 500px;
+    height: 436px;
+	background-image: url('https://placekitten.com/500/436');
+}
+
+#ab2_frame3 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_rectangle_frame.png');
+}
+
+#ab2_frame4 .artwork {
+	width: 213px;
+    height: 452px;
+	background-image: url('https://placekitten.com/213/452');
+}
+
+#ab2_frame4 .artwork .frame {
+	background-image: url('/tapestry/graphics/split_frame_1.png');
+}
+
+#ab2_frame5 .artwork {
 	background-image: url('https://placekitten.com/394/451');
 	width: 394px;
 	height: 451px;
 }
 
-#ab2_medium_rectangle_vertical_frame_1 .artwork .frame {
+#ab2_frame5 .artwork .frame {
 	background-image: url('/tapestry/graphics/medium_rectangle_vertical_frame.png');
 }
-
-#ab1_medium_frame .artwork {
-	width: 183px;
-    height: 452px;
-	background-image: url('https://placekitten.com/183/452');
-	/* background-size: 50%; */
-	/* left: 590px; */
-}
-
-#ab1_medium_frame .artwork .frame {
-	background-image: url('/tapestry/graphics/split_frame_1.png');
-}
-
-#ab2_medium_frame {
-	width: 500px;
-    height: 650px;
-	background-image: url(/tapestry/graphics/medium_rectangle_frame.png);
-	left: 1000px;
-}
-
-#ab2_split_frame_2 {
-	width: 400px;
-    height: 550px;
-	background-image: url(/tapestry/graphics/split_frame_1.png);
-	background-size: 50%;
-	left: 1510px;
-}
-
-#ab2_medium_rectangle_vertical_frame_2 {
-	width: 480px;
-    height: 450px;
-	background-image: url(/tapestry/graphics/medium_rectangle_vertical_frame.png);
-	background-size: 80%;
-	left: 2020px;
-}
-
 
 /*Artboard 3*/
 
 #ab3_birds {
 	width: 480px;
     height: 450px;
-	background-image: url(/tapestry/graphics/birds.png);
-	left: 500px;
+	background-image: url('/tapestry/graphics/birds.png');
 }
 
-#ab3_large_frame {
-	width: 680px;
-    height: 650px;
-	background-image: url("/tapestry/graphics/large_frame.png");
-	left: 1500px;
+
+#ab3_frame1 .artwork {
+	background-image: url('https://placekitten.com/394/451');
+	width: 394px;
+	height: 451px;
 }
 
+#ab3_frame1 .artwork .frame {
+	background-image: url('/tapestry/graphics/large_frame.png');
+}
 
 /*Artboard 4*/
 
-#ab4_medium_square_frame {
-	width: 440px;
-    height: 410px;
-	background-image: url(/tapestry/graphics/medium_square_frame_2.png);
-	left: 100px;
+#ab4_frame1 .artwork {
+	background-image: url('https://placekitten.com/394/451');
+	width: 394px;
+	height: 451px;
 }
 
-#ab4_medium_rectangle_frame_1 {
-	width: 530px;
-    height: 700px;
-	background-image: url(/tapestry/graphics/medium_rectangle_frame_2.png);
-	left: 600px;
+#ab4_frame1 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_square_frame_2.png');
+}
+
+#ab4_frame2 .artwork {
+	background-image: url('https://placekitten.com/394/451');
+	width: 394px;
+	height: 451px;
+}
+
+#ab4_frame2 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_rectangle_frame_2.png');
 }
 
 #ab4_storage_cupboard {
@@ -162,23 +163,27 @@ body {
 	left: 1600px;
 }
 
-#ab4_medium_rectangle_frame_2 {
-	width: 530px;
-    height: 700px;
-	background-image: url(/tapestry/graphics/medium_rectangle_frame_2.png);
-	left: 2300px;
+#ab4_frame3 .artwork {
+	background-image: url('https://placekitten.com/394/451');
+	width: 394px;
+	height: 451px;
 }
 
+#ab4_frame3 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_rectangle_frame_2.png');
+}
 
 /*Artboard 5*/
 
-#ab5_medium_square_frame {
-	width: 440px;
-    height: 410px;
-	background-image: url(/tapestry/graphics/medium_square_frame_2.png);
-	left: 500px;
+#ab5_frame1 .artwork {
+	background-image: url('https://placekitten.com/394/451');
+	width: 394px;
+	height: 451px;
 }
 
+#ab5_frame1 .artwork .frame {
+	background-image: url('/tapestry/graphics/medium_square_frame_2.png');
+}
 
 #ab5_button_elements {
 	height: 400px;
