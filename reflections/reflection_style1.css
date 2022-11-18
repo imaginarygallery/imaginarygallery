@@ -103,3 +103,15 @@ a {
 	left: -100px;
 	top: 50px;
 }
+
+#frame6 {
+	background-image: url('reflection/Plinth.gif');
+	left: -100px;
+	top: 50px;
+}
+
+#frame7 {
+	background-image: url('reflection/rotate_arrow_clockwise.png');
+	left: -100px;
+	top: 50px;
+}
