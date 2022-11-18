@@ -59,9 +59,24 @@ a {
 	background-size: 80%;
 }
 
-#frame1 {
+#frameleft {
 	background-image: url('reflection/r1_frame1_left.png');
 	left: 0px;
+}
+
+#framemidleft {
+	background-image: url('reflection/Frame_1_mid_lhs.png');
+	left: 40px;
+}
+
+#framemidright {
+	background-image: url('reflection/Frame_1_mid_rhs.png');
+	left: 200px;
+}
+
+#frameright {
+	background-image: url('reflection/r1_frame1_right.png');
+	left: 400px;
 }
 
 #next {
