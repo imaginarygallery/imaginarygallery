@@ -66,7 +66,7 @@ a {
 
 #R1_F1_RHS {
 	background-image: url('reflection/R1/R1_F1_RHS.png');
-	left: 40px;
+	left: -40px;
 }
 
 #framemidright {
@@ -88,8 +88,8 @@ a {
 	width: 70px;
 	background-size: 100%;
 	background-image: url('reflection/rotate_arrow_clockwise.png');
-	bottom: 200px;
-	right: 140px;
+	bottom: -200px;
+	right: -140px;
 /*	background-color: transparent;
 	border: none;
 	cursor: pointer;
