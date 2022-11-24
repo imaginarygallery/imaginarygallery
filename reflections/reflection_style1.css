@@ -86,7 +86,7 @@ a {
 	justify-content: center;
 	height: 50px;
 	width: 50px;
-	background-size: 200%;
+	background-size: 100%;
 	background-image: url('reflection/rotate_arrow_clockwise.png');
 	bottom: 100px;
 	right: 40px;
@@ -109,7 +109,7 @@ a {
 
 #frame3 {
 	background-image: url('reflection/Frame_1_mid_rhs.png');
-	left: -40px;
+	left: -200px;
 	top: 150px;
 }
 
