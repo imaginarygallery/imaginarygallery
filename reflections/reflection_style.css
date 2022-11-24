@@ -35,7 +35,7 @@ body {
 .four { grid-area: four; }
 
 #frame1 {
-	background-image: url('graphics/reflection/r1_frame1_left.png');
+	background-image: url('graphics/reflection/r1/R1_F1_LHS');
 	position: relative;
 	text-align: center;
     height: 200px;
@@ -67,7 +67,7 @@ body {
 }
 
 #frame2 {
-	background-image: url('graphics/reflection/r1_frame2_left.png');
+	background-image: url('graphics/reflection/r1/R1_F2_LHS');
 	position: relative;
 	text-align: center;
     height: 200px;
@@ -83,7 +83,7 @@ body {
 }
 
 #frame3 {
-	background-image: url('graphics/reflection/r1_frame2_right.png');
+	background-image: url('graphics/reflection/R1_F2_RHS');
 	position: relative;
 	text-align: center;
     height: 200px;
