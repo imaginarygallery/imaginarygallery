@@ -69,13 +69,13 @@ a {
 	left: -40px;
 }
 
-#framemidright {
-	background-image: url('reflection/Frame_1_mid_rhs.png');
+#R1_F2_RHS {
+	background-image: url('reflection/r1/R1_F2_RHS.png');
 	left: 200px;
 }
 
-#frameright {
-	background-image: url('reflection/r1_frame1_right.png');
+#R1_F2_LHS {
+	background-image: url('reflection/r1/R1_F2_LHS.png');
 	left: 400px;
 }
 
