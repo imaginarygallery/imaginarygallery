@@ -117,7 +117,7 @@ body {
 
 #ab4_medium_rectangle_frame_1 {
 	width: 530px;
-    height: 700px;
+    height: 480px;
 	background-image: url(/tapestry/graphics/medium_rectangle_frame_2.png);
 	left: 600px;
 }
@@ -132,7 +132,7 @@ body {
 
 #ab4_medium_rectangle_frame_2 {
 	width: 530px;
-    height: 700px;
+    height: 480px;
 	background-image: url(/tapestry/graphics/medium_rectangle_frame_2.png);
 	left: 2300px;
 }
