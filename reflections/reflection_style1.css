@@ -86,7 +86,7 @@ a {
 	justify-content: center;
 	height: 130px;
 	width: 200px;
-	background-size: 200%;
+	background-size: 100%;
 	background-image: url('reflection/rotate_arrow_clockwise.png');
 	bottom: 20px;
 	right: 40px;
@@ -115,18 +115,13 @@ a {
 
 #frame5 {
 	background-image: url('reflection/Plinth.png');
-	left: -100px;
-	top: 50px;
+	left: -400px;
+	top: 100px;
 }
 
 #frame6 {
 	background-image: url('reflection/Plinth.gif');
 	left: -100px;
-	top: 50px;
+	top: 100px;
 }
 
-#frame7 {
-	background-image: url('reflection/rotate_arrow_clockwise.png');
-	left: -100px;
-	top: 50px;
-}
