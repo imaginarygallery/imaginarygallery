@@ -28,11 +28,8 @@ a {
 	gap: 0px 0px; 
 	grid-template-areas: 
     "one two three four"; 
-    /*min-height: 80px;*/
-    /*min-height: 800px;*/
     min-width: 1330px;
     min-height: 650px;
-    /*max-height: 1500px;*/
 }
 
 .reflection-container {
@@ -113,15 +110,20 @@ a {
 	top: 150px;
 }
 
-#frame5 {
+#PLINTH_RHS {
 	background-image: url('reflection/Plinth.png');
 	left: -400px;
 	top: 100px;
 }
 
-#frame6 {
+#PLINTH_LHS {
 	background-image: url('reflection/Plinth.gif');
 	left: -100px;
 	top: 100px;
 }
 
+div {
+	width: 80px;
+	height: 80px;
+	background-color: skyblue;
+  }
