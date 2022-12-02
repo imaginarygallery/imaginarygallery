@@ -61,7 +61,7 @@ a {
 
 #R1_F1_LHS {
 	background-image: url('reflection/r1/R1_F1_LHS.png');
-	left: 0px;
+	left: -50px;
 }
 
 #R1_F1_RHS {
@@ -71,12 +71,12 @@ a {
 
 #R1_F2_RHS {
 	background-image: url('reflection/r1/R1_F2_RHS.png');
-	left: 200px;
+	left: -100px;
 }
 
 #R1_F2_LHS {
 	background-image: url('reflection/r1/R1_F2_LHS.png');
-	left: 400px;
+	left: -400px;
 }
 
 #next {
