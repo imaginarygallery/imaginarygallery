@@ -18,3 +18,15 @@
 	width: 80px;
 	background-size: 100%;
 }
+
+.plinth {
+	background-image: url('reflection/R1/R1_PLINTH_LHS.png');
+	width: 176px;
+	height: 187px;
+	background-size: 100%;
+	position: absolute;
+}
+
+.plinth-right {
+	background-image: url('reflection/R1/R1_PLINTH_RHS.png');
+}
