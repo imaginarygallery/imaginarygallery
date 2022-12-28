@@ -19,6 +19,11 @@ function initModals() {
                 modal.classList.replace('closed', 'open');
             })
         });
+
+        modal.querySelector('.close').addEventListener('click', event => {
+            event.preventDefault();
+            modal.classList.replace('open', 'closed');
+        });
         const closeButtons = document.querySelectorAll(`[data-modal-close=Modal${modalName}]`);
         closeButtons.forEach(closeButton => {
             closeButton.addEventListener('click', event => {
