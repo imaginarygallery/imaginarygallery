@@ -79,10 +79,14 @@ a {
 
 .plinth-left {
 	right: -70px;
-	bottom: -10px;
+	bottom: 20px;
 }
 
 .plinth-right {
 	left: -70px;
-	bottom: -10px;
+	bottom: 20px;
+}
+
+.ig-room-link {
+	position: absolute;
 }
