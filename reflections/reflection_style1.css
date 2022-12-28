@@ -1,9 +1,4 @@
-/*html {
-  height: 100%;
-}*/
-
 body {
-	/*min-height: 400px;*/
 	margin: 0px;
 }
 
@@ -28,16 +23,12 @@ a {
 	gap: 0px 0px; 
 	grid-template-areas: 
     "one two three four"; 
-    /*min-height: 80px;*/
-    /*min-height: 800px;*/
     min-width: 1330px;
     min-height: 650px;
-    /*max-height: 1500px;*/
 }
 
 .reflection-container {
 	position: relative;
-	/*min-width: 320px;*/
 }
 
 .one { 
@@ -49,51 +40,39 @@ a {
 
 .frame {
 	position: absolute;
-	height: 40vh;
-    width: 20vw;
   	background-repeat: no-repeat;
 	background-position: center;
-	min-height: 275px;
-	min-width: 275px;
 
-	background-size: 80%;
+	background-size: 100%;
 }
 
 #frame1 {
-	background-image: url('reflection/r1_frame1_left.png');
-	left: 0px;
-}
-
-#next {
-	position: absolute;
-  	background-repeat: no-repeat;
-	background-position: center;
-	justify-content: center;
-	height: 130px;
-	width: 200px;
-	background-size: 200%;
-	background-image: url('reflection/arrow_right.png');
-	bottom: 20px;
-	right: 40px;
-/*	background-color: transparent;
-	border: none;
-	cursor: pointer;
-	outline: none;*/
-}
-
-#frame4 {
-	background-image: url('reflection/r1_frame1_right.png');
-	right: 0px;
-}
-
-#frame2 {
-	background-image: url('reflection/r1_frame2_left.png');
-	right: -40px;
+	background-image: url('reflection/R1/R1_F1_LHS.png');
+	width: 220px;
+	height: 193px;
+	left: 30px;
 	top: 150px;
 }
 
+#frame2 {
+	background-image: url('reflection/R1/R1_F2_LHS.png');
+	width: 227px;
+	height: 324px;
+	right: 20px;
+	top: 40px;
+}
+
 #frame3 {
-	background-image: url('reflection/r1_frame2_right.png');
-	left: -40px;
+	background-image: url('reflection/R1/R1_F2_RHS.png');
+	width: 227px;
+	height: 324px;
+	left: 20px;
+	top: 40px;}
+
+#frame4 {
+	background-image: url('reflection/R1/R1_F1_RHS.png');
+	width: 220px;
+	height: 193px;
+	right: 30px;
 	top: 150px;
 }
