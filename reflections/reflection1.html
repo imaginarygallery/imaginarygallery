@@ -37,17 +37,17 @@
     <div id="content">
         <div class="reflection-container one">
             <div class="frame" id="frame1" data-modal-open="ModalR1_F1_LHS"></div>
-            <div class="plinth plinth-left"></div>
+            <div class="plinth plinth-left" data-modal-open="Modalplinth_LHS"></div>
         </div>
         <div class="reflection-container two">
-            <div class="frame" id="frame2"></div>
+            <div class="frame" id="frame2" data-modal-open="ModalR1_F2_LHS"></div>
         </div>
         <div class="reflection-container three">
-            <div class="frame" id="frame3"></div>
+            <div class="frame" id="frame3" data-modal-open="ModalR1_F2_RHS"></div>
         </div>
         <div class="reflection-container four">
-            <div class="frame" id="frame4"></div>
-            <div class="plinth plinth-right"></div>
+            <div class="frame" id="frame4" data-modal-open="ModalR1_F1_RHS"></div>
+            <div class="plinth plinth-right" data-modal-open="Modalplinth_RHS"></div>
             <a href="reflection2.html" class="rotate-arrow" id="next-reflection"></a>
         </div>
         <a href="/cave" class="ig-link ig-room-link ig-previous-room">
@@ -60,7 +60,57 @@
         <div class="modal-content">
             <div class="pic" id="pic1"></div>
             <div class="description">
-                <p>Some text in the Modal describing Frame 1</p>
+                <p>Some text in the Modal describing F1_LHS</p>
+            </div>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div id="ModalR1_F2_LHS" class="modal closed">
+        <div class="modal-content">
+            <div class="pic" id="pic1"></div>
+            <div class="description">
+                <p>Some text describing F2_LHS</p>
+            </div>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div id="ModalR1_F2_RHS" class="modal closed">
+        <div class="modal-content">
+            <div class="pic" id="pic1"></div>
+            <div class="description">
+                <p>Some text describing F2_RHS</p>
+            </div>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div id="ModalR1_F1_RHS" class="modal closed">
+        <div class="modal-content">
+            <div class="pic" id="pic1"></div>
+            <div class="description">
+                <p>Some text describing F1_RHS</p>
+            </div>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div id="Modalplinth_LHS" class="modal closed">
+        <div class="modal-content">
+            <div class="pic" id="pic1"></div>
+            <div class="description">
+                <p>Some text describing plinth_LHS</p>
+            </div>
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div id="Modalplinth_RHS" class="modal closed">
+        <div class="modal-content">
+            <div class="pic" id="pic1"></div>
+            <div class="description">
+                <p>Some text describing plinth_RHS</p>
             </div>
             <span class="close">&times;</span>
         </div>
