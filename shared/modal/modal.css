@@ -32,6 +32,10 @@
 	}
 }
 
+[data-modal-open] {
+    cursor: pointer;
+}
+
 .modal.open {
     display: block;
 }

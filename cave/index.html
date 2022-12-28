@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="cave_style.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="/shared/modal/modal.css">
+    <script type="text/javascript" src="/shared/modal/modal.js"></script>
 </head>
 <body>
     <link rel="stylesheet" type="text/css" href="/shared/menu/menu.css">
@@ -42,76 +44,71 @@
     </a>
 
     <div id="overlay">
-        <div class="item one">
-            <button id="buttonOne"></button>
+        <div class="item one" data-modal-open="Modal1">
             <div class="image One"></div>
         </div>
-        <div class="item two">
-            <button id="buttonTwo"></button>
+        <div class="item two" data-modal-open="Modal2">
             <div class="image Two"></div>
         </div>
-        <div class="item three">
-            <button id="buttonThree"></button>
+        <div class="item three" data-modal-open="Modal3">
             <div class="image Three"></div>
         </div>
-        <div class="item four">
-            <button id="buttonFour"></button>
+        <div class="item four" data-modal-open="Modal4">
             <div class="image Four"></div>
         </div>
-        <div class="item five">
-            <button id="buttonFive"></button>
+        <div class="item five" data-modal-open="Modal5">
             <div class="image Five"></div>
         </div>
 
     </div>
 
-    <div id="OneModal" class="modal">
+    <div id="Modal1" class="modal closed">
         <div class="modal-content">
             <div class="pic" id="pic1"></div>
             <div class="description">
-                <p>Some text in the Modal..</p>
+                <p>Some text in the Modal #1...</p>
             </div>
-            <span class="close" id="closeOne">&times;</span>
+            <span class="close">&times;</span>
         </div>
     </div>
 
-    <div id="TwoModal" class="modal">
+    <div id="Modal2" class="modal closed">
         <div class="modal-content">
             <div class="pic" id="pic2"></div>
             <div class="description">
-                <p>Some text in the Modal..</p>
+                <p>Some text in the Modal #2...</p>
             </div>
-            <span class="close" id="closeTwo">&times;</span>
+            <span class="close">&times;</span>
         </div>
     </div>
 
-    <div id="ThreeModal" class="modal">
+    <div id="Modal3" class="modal closed">
         <div class="modal-content">
             <div class="pic" id="pic3"></div>
             <div class="description">
                 <p>Some text in the Modal..</p>
             </div>
-            <span class="close" id="closeThree">&times;</span>
+            <span class="close">&times;</span>
         </div>
     </div>
 
-    <div id="FourModal" class="modal">
+    <div id="Modal4" class="modal closed">
         <div class="modal-content">
             <div class="pic" id="pic4"></div>
             <div class="description">
                 <p>Some text in the Modal..</p>
             </div>
-            <span class="close" id="closeFour">&times;</span>
+            <span class="close">&times;</span>
         </div>
     </div>
 
-    <div id="FiveModal" class="modal">
+    <div id="Modal5" class="modal closed">
         <div class="modal-content">
             <div class="pic" id="pic5"></div>
             <div class="description">
                 <p>Some text in the Modal..</p>
             </div>
-            <span class="close" id="closeFive">&times;</span>
+            <span class="close">&times;</span>
         </div>
     </div>
 

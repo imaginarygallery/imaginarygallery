@@ -4,19 +4,26 @@ Tool for adding modals to a page.
 
 ## How to use
 
-1. Add the modal itself. This should live right at the end of your page, before the `</body>` tag. It should look like this:
+1. If this is the first time a modal has been added to your chosen page, add these lines to the `head` of your HTML to include the CSS and JS for modals:
 
 ```
-    <div id="ModalExample" class="modal closed">
-        <div class="modal-content">
-            <div class="pic" id="pic1"></div>
-            <div class="description">
-                <p>Text goes here</p>
-            </div>
-            <span class="close" data-modal-close="ModalExample">&times;</span>
-        </div>
-    </div>
+<link rel="stylesheet" type="text/css" href="/shared/modal/modal.css">
+<script type="text/javascript" src="/shared/modal/modal.js"></script>
 
+```
+
+1. Add the modal itself to the HTML page. This should live right at the end of your page, before the `</body>` tag. It should look like this:
+
+```
+<div id="ModalExample" class="modal closed">
+    <div class="modal-content">
+        <div class="pic" id="pic1"></div>
+        <div class="description">
+            <p>Text goes here</p>
+        </div>
+        <span class="close">&times;</span>
+    </div>
+</div>
 ```
 
 1. Change the modal ID to a name of your choice. It has to start with "Modal" and be unique within the page. In other words, replace "Example" with something else.
