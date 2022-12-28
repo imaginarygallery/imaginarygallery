@@ -76,3 +76,22 @@ a {
 	right: 30px;
 	top: 150px;
 }
+
+.plinth {
+	background-image: url('reflection/R1/R1_PLINTH_LHS.png');
+	width: 176px;
+	height: 187px;
+	background-size: 100%;
+	position: absolute;
+}
+
+.plinth-left {
+	right: -70px;
+	bottom: -10px;
+}
+
+.plinth-right {
+	background-image: url('reflection/R1/R1_PLINTH_RHS.png');
+	left: -70px;
+	bottom: -10px;
+}
