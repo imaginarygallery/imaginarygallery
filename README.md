@@ -11,7 +11,7 @@
 
 ## Development
 
-1. Run `http-server`
+1. Run `http-server` or double click `start.bat`
 1. Visit http://localhost:8080/ in your browser. You should see the homepage
 1. Make changes to the files, save them, press Refresh to see them in the browser
 1. When you're ready, commit your files using Git. Read over your changes as you commit them to check you're not commiting any files you shouldn't be, especially any with passwords or secrets in them.

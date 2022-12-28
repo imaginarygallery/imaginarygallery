@@ -39,3 +39,20 @@
 .modal.open {
     display: block;
 }
+
+.close {
+    color: #eee;
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+}
+
+.close:hover,
+.close:focus {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
