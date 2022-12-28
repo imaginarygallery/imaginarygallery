@@ -89,24 +89,20 @@ body {
 	left: 100px;
 }
 
-#previous {
-	background-image: url('rotate_arrow_clockwise.png');
-	left: 10px;
-}
-
-.arrow {
-	position: absolute;
-  	background-repeat: no-repeat;
-	background-position: center;
-	justify-content: center;
-	height: 140px;
-	width: 200px;
-	background-size: 150%;
-	top: 0px;
-}
-
 .ig-room-link.ig-next-room {
 	position: absolute;
 	right: 10px;
-	top: -25px;
+	bottom: 90px;
+}
+
+.plinth-left {
+	transform: rotate(90deg);
+	left: 30px;
+	bottom: -70px;
+}
+
+.plinth-right {
+	transform: rotate(-90deg);
+	right: 30px;
+	bottom: -70px;
 }

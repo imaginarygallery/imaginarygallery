@@ -1,100 +1,32 @@
-html {
-  height: 100%;
+#previous-reflection {
+	background-image: url('reflection/rotate_arrow_anticlockwise.png');
+	left: 0;
+	bottom: 0;
 }
 
-body {
-	min-height: 100%;
-	margin: 0px;
+#next-reflection {
+	background-image: url('reflection/rotate_arrow_clockwise.png');
+	right: 0;
+	bottom: 0;
 }
 
-
-#content {
-	background-image: url('graphics/reflection/Reflection_Room_Rotation_1.png');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-	margin: 0px;
-	object-fit: cover;
-	padding: 0px;
-	width: 100%;
+.rotate-arrow {
 	position: absolute;
-	display: grid;
-	grid-template-columns: 0.20fr 0.30fr 0.30fr 0.20fr; 
-	grid-template-rows: 1fr; 
-	gap: 0px 0px; 
-	grid-template-areas: 
-    "one two three four"; 
-}
-
-.one { 
-	grid-area: one; 
-}
-.two { grid-area: two; }
-.three { grid-area: three; }
-.four { grid-area: four; }
-
-#frame1 {
-	background-image: url('graphics/reflection/r1/R1_F1_LHS');
-	position: relative;
-	text-align: center;
-    height: 200px;
-	justify-content: center;
-	margin-top: 10%;
-	/*margin-bottom: 70%;*/
-	padding: 20%; 
-	align-items: center;
-/*  	align-items: center;*/
-	background-size: 80%;
-	background-repeat: no-repeat;
+  	background-repeat: no-repeat;
 	background-position: center;
+	height: 80px;
+	width: 80px;
+	background-size: 100%;
 }
 
-#frame4 {
-	background-image: url('graphics/reflection/R1/R1_F1_RHS');
-	position: relative;
-	text-align: center;
-    height: 200px;
-	justify-content: center;
-	margin-top: 10%;
-	/*margin-bottom: 70%;*/
-	padding: 20%; 
-	align-items: center;
-/*  	align-items: center;*/
-	background-size: 80%;
-	background-repeat: no-repeat;
-	background-position: center;
+.plinth {
+	background-image: url('reflection/R1/R1_PLINTH_LHS.png');
+	width: 176px;
+	height: 187px;
+	background-size: 100%;
+	position: absolute;
 }
 
-#frame2 {
-	background-image: url('graphics/reflection/r1/R1_F2_LHS');
-	position: relative;
-	text-align: center;
-    height: 200px;
-	justify-content: center;
-	margin-top: 25%;
-	/*margin-bottom: 70%;*/
-	padding: 20%; 
-	align-items: center;
-/*  	align-items: center;*/
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
+.plinth-right {
+	background-image: url('reflection/R1/R1_PLINTH_RHS.png');
 }
-
-#frame3 {
-	background-image: url('graphics/reflection/R1_F2_RHS');
-	position: relative;
-	text-align: center;
-    height: 200px;
-	justify-content: center;
-	margin-top: 25%;
-	/*margin-bottom: 70%;*/
-	padding: 20%; 
-	align-items: center;
-/*  	align-items: center;*/
-	background-size: 60%;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-

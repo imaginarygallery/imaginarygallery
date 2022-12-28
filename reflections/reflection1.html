@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>Room of Reflection | Imaginary Gallery</title>
     <link rel="stylesheet" type="text/css" href="/styles/common.css">
+    <link rel="stylesheet" type="text/css" href="reflection_style.css">
     <link rel="stylesheet" type="text/css" href="reflection_style1.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
@@ -32,25 +33,25 @@
 	<script type="text/javascript" src="/shared/menu/menu.js"></script>
 
     <div id="content">
-
         <a href="/cave" class="ig-link ig-room-link ig-previous-room">
-            <img src="/graphics/arrows/arrowgreen.png">
-            <div class="scaled">Scaled</div>
-            </alt> Previous room
+            <img src="/graphics/arrows/arrowgreen.png" alt="This way" class="ig-room-arrow">
+            Previous room
         </a>
 
         <div class="reflection-container one">
-            <div class="frame" id="R1_F1_LHS"></div>
+            <div class="frame" id="frame1"></div>
+            <div class="plinth plinth-left"></div>
         </div>
         <div class="reflection-container two">
-            <div class="frame" id="R1_F2_LHS"></div>
+            <div class="frame" id="frame2"></div>
         </div>
         <div class="reflection-container three">
-            <div class="frame" id="R1_F2_RHS"></div>
+            <div class="frame" id="frame3"></div>
         </div>
         <div class="reflection-container four">
-            <div class="frame" id="R1_F1_RHS"></div>
-            <a href="reflection2.html" id="next"></a>
-        </div>      
+            <div class="frame" id="frame4"></div>
+            <div class="plinth plinth-right"></div>
+            <a href="reflection2.html" class="rotate-arrow" id="next-reflection"></a>
+        </div>
     </div>
 </body>
