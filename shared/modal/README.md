@@ -28,5 +28,10 @@ Tool for adding modals to a page.
 
 1. Change the modal ID to a name of your choice. It has to start with "Modal" and be unique within the page. In other words, replace "Example" with something else.
 1. Add your desired content to the `modal-content` element. For instance, a close up of the gallery image, and a description/onward links. Remember to leave in the close button.
-1. Figure out which element you want to use as your open trigger. Add `data-modal-open=ModalWhateverIdYouPicked` to its HTML attributes.
+1. Figure out which element you want to use as your open trigger. Add `data-modal-open="ModalWhateverIdYouPicked"` to its HTML attributes so it looks like this:
+
+```
+<div class="my-special-frame" data-modal-open="ModalMyFrame1">
+```
+
 1. Test and you're good to go!
