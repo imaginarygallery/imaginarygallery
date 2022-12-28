@@ -59,24 +59,9 @@ a {
 	background-size: 80%;
 }
 
-#R1_F1_LHS {
-	background-image: url('reflection/r1/R1_F1_LHS.png');
-	left: -50px;
-}
-
-#R1_F1_RHS {
-	background-image: url('reflection/R1/R1_F1_RHS.png');
-	left: -40px;
-}
-
-#R1_F2_RHS {
-	background-image: url('reflection/r1/R1_F2_RHS.png');
-	left: -100px;
-}
-
-#R1_F2_LHS {
-	background-image: url('reflection/r1/R1_F2_LHS.png');
-	left: -400px;
+#frame1 {
+	background-image: url('reflection/r1_frame1_left.png');
+	left: 0px;
 }
 
 #next {
@@ -84,12 +69,12 @@ a {
   	background-repeat: no-repeat;
 	background-position: center;
 	justify-content: center;
-	height: 70px;
-	width: 70px;
-	background-size: 100%;
-	background-image: url('reflection/rotate_arrow_clockwise.png');
-	bottom: -200px;
-	right: -140px;
+	height: 130px;
+	width: 200px;
+	background-size: 200%;
+	background-image: url('reflection/arrow_right.png');
+	bottom: 20px;
+	right: 40px;
 /*	background-color: transparent;
 	border: none;
 	cursor: pointer;
@@ -97,31 +82,18 @@ a {
 }
 
 #frame4 {
-	background-image: url('reflection/r1/R1_F1_RHS.png');
+	background-image: url('reflection/r1_frame1_right.png');
 	right: 0px;
 }
 
 #frame2 {
-	background-image: url('reflection/r1/R1_F2_LHS.png');
+	background-image: url('reflection/r1_frame2_left.png');
 	right: -40px;
 	top: 150px;
 }
 
 #frame3 {
-	background-image: url('reflection/r1/R1_F2_RHS.png');
-	left: -200px;
+	background-image: url('reflection/r1_frame2_right.png');
+	left: -40px;
 	top: 150px;
 }
-
-#frame5 {
-	background-image: url('reflection/Plinth.png');
-	left: -400px;
-	top: 100px;
-}
-
-#frame6 {
-	background-image: url('reflection/Plinth.gif');
-	left: -100px;
-	top: 100px;
-}
-
